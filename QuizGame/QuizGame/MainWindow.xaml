@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Viewbox Stretch="Fill">
+            <Image  MouseDown="Image_MouseDown" MouseMove="Image_MouseMove" MouseUp="Image_MouseUp" Stretch="UniformToFill" HorizontalAlignment="Left" Height="408" VerticalAlignment="Center" Width="763" Source="/menuhatter.png"/>
+        </Viewbox>
     </Grid>
 </Window>
