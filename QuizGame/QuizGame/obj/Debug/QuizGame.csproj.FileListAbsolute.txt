@@ -28,3 +28,22 @@ C:\Users\fater.laszlo_csany-z\Desktop\QuizJatek\QuizGame\QuizGame\obj\Debug\Quiz
 C:\Users\fater.laszlo_csany-z\Desktop\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
 C:\Users\fater.laszlo_csany-z\Desktop\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.exe
 C:\Users\fater.laszlo_csany-z\Desktop\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\bin\Debug\QuizGame.exe.config
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\bin\Debug\QuizGame.exe
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\bin\Debug\QuizGame.pdb
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\MainWindow.g.cs
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\App.g.cs
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame_MarkupCompile.cache
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame_MarkupCompile.lref
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\MainWindow.baml
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.g.resources
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.exe
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Fomenu.g.cs
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Game.g.cs
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Fomenu.baml
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Game.baml

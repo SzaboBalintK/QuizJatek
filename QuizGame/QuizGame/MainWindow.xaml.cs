@@ -1,19 +1,22 @@
 ﻿using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace QuizGame
 {
     public partial class MainWindow : Window
     {
-        private bool isDragging = false;
-        private Point startPoint;
+        /*private bool isDragging = false;
+        private Point startPoint;*/
 
         public MainWindow()
         {
             InitializeComponent();
+            Fomenu fomenu = new Fomenu();
+            frame_sajat.NavigationService.Navigate(fomenu);
         }
 
-        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        /*private void Image_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.RightButton == MouseButtonState.Pressed)
             {
@@ -44,6 +47,6 @@ namespace QuizGame
         private void Image_MouseUp(object sender, MouseButtonEventArgs e)
         {
             isDragging = false;
-        }
+        }*/
     }
 }
