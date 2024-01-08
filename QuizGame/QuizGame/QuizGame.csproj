@@ -111,5 +111,8 @@
   <ItemGroup>
     <Resource Include="menuhatter.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icon_pic.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

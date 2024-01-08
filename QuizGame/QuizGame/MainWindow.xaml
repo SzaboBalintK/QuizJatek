@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizGame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="QuizGame" Height="450" Width="800"
+        Icon="/icon_pic.png">
     <Grid>
         <Frame x:Name="frame_sajat"/>
 
