@@ -45,7 +45,11 @@ namespace QuizGame
             {
                 osszkerdes.Add(new Kerdesek(sor));
             }
+            Random rnd = new Random();
+            int randomid = rnd.Next(1, 105);
 
+            kerdes_txt.Text = osszkerdes[12].kerdes;
+            
         }
     }
 }
