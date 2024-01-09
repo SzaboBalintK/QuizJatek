@@ -9,7 +9,18 @@
       Title="Game" Background="Bisque">
 
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Center" Margin="0,159,0,0" VerticalAlignment="Top" Width="644" Height="83"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="1" Content="Kérdés" HorizontalAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Margin="78,319,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="168" Height="79"/>
         <Button Content="Button" HorizontalAlignment="Center" Margin="0,337,0,0" VerticalAlignment="Top" Height="43" Width="72"/>
         <Label Content="eddigi hibák stb." HorizontalAlignment="Left" Margin="523,284,0,0" VerticalAlignment="Top" Height="114" Width="247" RenderTransformOrigin="0.365,0.343"/>
