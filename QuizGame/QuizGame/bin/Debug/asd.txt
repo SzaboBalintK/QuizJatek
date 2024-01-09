@@ -1,0 +1,104 @@
+0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;20;zene
+1;Melyik zeneszerző híres a "Symphony No. 9"-ről a "Joy Ode" kórusmozgással?;Ludwig van Beethoven;12;zene
+2;Melyik korszakban komponált legtöbb zeneművet Wolfgang Amadeus Mozart?;Klasszikus;28;zene
+3;Mi a kifejezés egy szóló hangszer számára, amely általában a művész készségeit mutatja be?;Concerto;14;zene
+4;Ki ismert a "Four Seasons" hegedűversenysorozat komponálásáért?;Antonio Vivaldi;30;zene
+5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a "Romeo és Júlia nyitányt"?;Pyotr Ilyich Tchaikovsky;18;zene
+6;Mi a kifejezés egy olyan zenemű számára, amely történetet mesél el hangszeres zene által?;Program Zene;25;zene
+7;Ki komponálta a híres "Holdfény szonátát" zongorára?;Ludwig van Beethoven;10;zene
+8;Mely korszakban virágzott Johann Sebastian Bach, George Frideric Handel és Antonio Vivaldi?;Barokk;22;zene
+9;Mi a zenei kifejezés a hangerő fokozatos növekedéséhez?;Tempó;16;zene
+10;Ki számít a "szimfónia atyjának" és a "vonósnégyes atyjának"?;Franz Joseph Haydn;26;zene
+11;Mi a kifejezés egy három vokális részre írt kompozícióhoz?;Trio Sonata;13;zene
+12;Melyik korszakban történt Ludwig van Beethoven átmenete a klasszikus zenétől a romantikusig?(Évszázadra kerekítve.);1800;29;zene
+13;Ki ismert a "Figaro házasságáért" című operájáról?;Wolfgang Amadeus Mozart;15;zene
+14;Mi a kifejezés két vagy több hang egyidejű lejátszásához akkord létrehozásához?;Harmónia;21;zene
+15;Ki komponálta a "Diótörő" és a "Hattyúk tava" baletteket?;Camille Saint-Saens;11;zene
+16;Mi a kifejezés egy szóló hangszer számára, amelyet egy zenekar kísér?;Concerto;27;zene
+17;Melyik zeneszerző társul a barokk korszakkal, és komponálta a "Vízzenét"?;George Frideric Handel;17;zene
+18;Mely korszakban komponált Franz Schubert híres liederjeit (műdalok)?;Romantika;24;zene
+19;Ki ismert a "Brandenburgi versenyművekért" és a "Jól temperált klaviatúráért"?;Johann Sebastian Bach;19;zene
+20;Mi a kifejezés egy zenemű számára, amelyben a szóló hangszer egy zenekar kíséretével szerepel?;Concerto;23;zene
+21;Ki az olasz zeneszerző, akit operái, mint a "Traviata" és a "Rigoletto" tettek híressé?;Giuseppe Verdi;10;zene
+22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;14;zene
+23;Mi a kifejezés a zenei darab sebességére vagy tempójára?;Pace;28;zene
+24;Ki komponálta a "Bolygókat", egy szvitet az egyes bolygókhoz tartozó tételekkel?;Gustav Holst;20;zene
+25;Ki a görög mitológiában az istenek királya?;Zeus;10;mitologia
+26;Melyik lénynek van bikafeje és emberi teste a görög mitológiában?;Minotaur;15;mitologia
+27;Ki a bölcsesség és háború istennője a görög mitológiában?;Athena;25;mitologia
+28;Mi a neve a szárnyas lónak a görög mitológiában?;Pegasus;12;mitologia
+29;Ki a tenger istene a görög mitológiában?;Poseidon;28;mitologia
+30;Melyik hős küzdött a Gorgó Medusával a görög mitológiában?;Perseus;17;mitologia
+31;Ki a pokol királynője a görög mitológiában?;Persephone;22;mitologia
+32;Mi volt Pandora híres ládájának a neve a görög mitológiában?;Pandora Doboza;13;mitologia
+33;Ki a zene, költészet és jóslás istene a görög mitológiában?;Apollo;29;mitologia
+34;Mi az alvilág folyója a görög mitológiában?;Styx;18;mitologia
+35;Ki az összes isten atyja a norvég mitológiában?;Odin;12;mitologia
+36;Mi a neve Thor varázsüllőjének a norvég mitológiában?;Mjölnir;23;mitologia
+37;Mely lény őrzi a Hel birodalom bejáratát a norvég mitológiában?;Garmr;15;mitologia
+38;Mi a neve a világfának a norvég mitológiában?;Yggdrasil;27;mitologia
+39;Ki a tréfamester isten a norvég mitológiában?;Loki;14;mitologia
+40;Melyik istennő társul a szerelemhez és a szépséghez a norvég mitológiában?;Frigg;20;mitologia
+41;Melyik lény jelzi a Ragnarok eljövetelét a norvég mitológiában?;Fenrir;11;mitologia
+42;Ki a pokol királynője a norvég mitológiában?;Hel;29;mitologia
+43;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;19;mitologia
+44;Mi Odin hollóinak a neve a norvég mitológiában?(Vesszővel elválasztva!);Huginn,Muninn;26;mitologia
+45;Ki az alvilág istene az egyiptomi mitológiában?;Anubis;10;mitologia
+46;Mi a napisten neve az egyiptomi mitológiában?;Ra;15;mitologia
+47;Ki a bölcsesség és írás istene az egyiptomi mitológiában?;Thoth;25;mitologia
+48;Mely lényt gyakran ábrázolnak oroszlán teste és fáraó feje kombinációjaként az egyiptomi mitológiában?;Szfinx;12;mitologia
+49;Ki a kaosz és vihar istene az egyiptomi mitológiában?;Set;28;mitologia
+50;Mi az alvilághoz kapcsolódó folyó neve az egyiptomi mitológiában?;Styx;18;mitologia
+51;Ki a szerelem és anyaság istennője az egyiptomi mitológiában?;Hathor;23;mitologia
+52;Mi a neve a sólyomfejű istennek, aki az éghez és a királysághoz kapcsolódik az egyiptomi mitológiában?;Horus;14;mitologia
+53;Melyik isten gyakran ibiszh fejjel ábrázolják az egyiptomi mitológiában?;Thoth;20;mitologia
+54;Ki a sakálfejű isten, aki a mumifikácihhoz kapcsolódik az egyiptomi mitológiában?;Anubis;11;mitologia
+55;Mi a neve az oltalmazó istennőnek, akit gyakran oroszlánfejűként ábrázolnak az egyiptomi mitológiában?;Sekhmet;27;mitologia
+56;Ki a termékenység és anyaság istennője az egyiptomi mitológiában?;Isis;16;mitologia
+57;Mi a kígyó neve, amely a káoszt szimbolizálja az egyiptomi mitológiában?;Apep;22;mitologia
+58;Ki a tudás és bölcsesség istene az egyiptomi mitológiában?;Thoth;13;mitologia
+59;Mi a bogár neve, amelyet a feltámadáshoz kapcsolnak az egyiptomi mitológiában?;Scarab;30;mitologia
+60;Mi a legnagyobb nagymacskafaj a világon?;Tigris;12;allatok
+61;Melyik madár ismert a képességéről, hogy utánozza az emberi beszédet?;Jákópapagáj;18;allatok
+62;Mi a legnagyobb emlős a világon?;Kék Bálna;24;allatok
+63;Mely teknős fajta híres hosszú nyakáról?;Aligátorteknős;15;allatok
+64;Mi a leggyorsabb szárazföldi állat?;Gepárd;29;allatok
+65;Melyik állat alszik állva, és fekete-fehér csíkokról ismert?;Zebra;20;allatok
+66;Mi az egyetlen emlős, amely képes hosszantartó repülésre?;Denevér;13;allatok
+67;Melyik kígyó ismert a sisakjáról és halálos mérgéről?;Kobra;26;allatok
+68;Mi a legnagyobb medvefaj?;Jegesmedve;11;allatok
+69;Melyik rovar híres biolumineszcens fényéről?;Szentjános Bogár;27;allatok
+70;Mi az ausztrál nemzeti állat?;Kenguru;17;allatok
+71;Melyik tengeri emlős híres agyar-szerű fogairól?;Narvál;22;allatok
+72;Mi a legnagyobb élő emberszabású?;Gorilla;14;allatok
+73;Melyik hal ismert arról, hogy ellenáll az áramlásnak, hogy így tud felszállni folyókban?;Lazac;30;allatok
+74;Mi a legnagyobb pingvinfaj?;Császárpingvin;19;allatok
+75;Melyik állat a Világ Természetvédelmi Alap (WWF) szimbóluma?;Óriás Panda;25;allatok
+76;Mi a legkisebb majomfaj?;Cebulla;16;allatok
+77;Melyik teremtményt nevezik gyakran a "Dzsungel királyának"?;Oroszlán;21;allatok
+78;Mi az egyetlen kontinens, ahol a zsiráfok vadon élnek?;Afrika;28;allatok
+79;Melyik delfinfajta ismert megkülönböztető rózsaszín színéről?;Amazonasi Folyamidelfin;15;allatok
+80;Mi a legnagyobb sasfajta?;Haast-féle Sas;22;allatok
+81;Melyik rovar híres hihetetlen erejéről a méretéhez képest?;Ganajtúró Bogár;17;allatok
+82;Mi az egyetlen erszényes, ami az Egyesült Államokban honos?;Oposszum;13;allatok
+83;Mi az a teremtmény, amit a "sivatag hajója" néven ismernek?;Puputeve;19;allatok
+84;Mi a leggyorsabb tengeri állat?;Vitorláshal;14;allatok
+85;Melyik rágcsáló híres gátépítő viselkedéséről?;Hód;20;allatok
+86;Mi a legnagyobb cápafaj?;Fehér Cápa;12;allatok
+87;Melyik madár híres hosszú, hajlított csőréről és élénk színű tollazatáról?;Tukán;18;allatok
+88;Mi a legnagyobb szárazföldi emlős faj?;Afrikai Elefánt;25;allatok
+89;Melyik nagymacskafaj ismert jellegzetes fekete sörényéről?;Oroszlán;10;allatok
+90;Mi a legnagyobb béka fajta?;Góliát Béka;27;allatok
+91;Melyik teremtményt hívják gyakran a "bölcs öreg madárnak"?;Bagoly;23;allatok
+92;Mi az egyetlen erszényes, amelyet Ausztrálián kívül is megtalálnak?;Virginiai Oposszum;16;allatok
+93;Melyik nagymacskafajta ismert jellegzetes fekete foltjairól vagy rozettáiról?;Jaguár;21;allatok
+94;Mi a legnagyobb hangya faja?;Bullet Ant;26;allatok
+95;Ki a római mitológiában az istenek királya?;Jupiter;17;mitologia
+96;Melyik görög mitológiai lénynek van Medusa feje a pajzsán?;Athena;25;mitologia
+97;Melyik madár a legnagyobb szárnyfesztávolságú a világon?;Albatrosz;14;allatok
+98;Melyik állatot nevezik gyakran a "szivárvány hala"-nak a színes külseje miatt?;Szivárványos pisztráng;22;allatok
+99;Ki komponálta a "Peer Gynt" című zenei szvitet?;Edvard Grieg;18;zene
+100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;29;zene
+101;Melyik görög mitológiai hős nevét viseli a hónapok közül egy?;Janus;14;mitologia
+102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;22;allatok
+103;Ki komponálta a "A varázsfuvola" című operát?;Wolfgang Amadeus Mozart;18;zene
