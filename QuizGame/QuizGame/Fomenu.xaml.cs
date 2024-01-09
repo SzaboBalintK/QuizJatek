@@ -15,14 +15,16 @@ using System.Windows.Shapes;
 
 namespace QuizGame
 {
-    /// <summary>
-    /// Interaction logic for Fomenu.xaml
-    /// </summary>
     public partial class Fomenu : Page
     {
         public Fomenu()
         {
             InitializeComponent();
+        }
+
+        private void next_btn(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Game());
         }
     }
 }
