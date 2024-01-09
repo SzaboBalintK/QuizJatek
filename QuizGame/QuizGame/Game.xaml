@@ -15,13 +15,13 @@
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
-    </Grid>
-    <!-- Define rows with different heights -->
-        <Grid>
-            <RowDefinition Height="0.5*"/>
+
+        <!-- Define rows with different heights -->
+        <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="0.5*"/>
-        </Grid>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
         <!-- Place your controls in the desired cells -->
         <Label Grid.Column="0" Grid.Row="0" Content="Kérdés" HorizontalAlignment="Center"/>
