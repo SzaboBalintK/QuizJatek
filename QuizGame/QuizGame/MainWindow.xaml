@@ -5,10 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:QuizGame"
         mc:Ignorable="d"
-        Title="QuizGame" Height="450" Width="800"
-        Icon="/icon_pic.png">
+        Title="MainWindow" Height="450" Width="800" MinHeight="400" MinWidth="700">
+    <Window.Background>
+        <ImageBrush ImageSource="/menuhatter.png"/>
+    </Window.Background>
     <Grid>
-        <Frame x:Name="frame_sajat"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label x:Name="program_label" Grid.Column="1" Grid.Row="0" Content="Quiz Játék" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40"/>
+        <Label x:Name="jatekos_neve_label" Grid.Column="1" Grid.Row="0" Content="Játékos neve:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18"/>
+        <TextBox x:Name="jatekos_nev"  Grid.Column="1" Grid.Row="0"  HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="200" Height="27"/>
+        <Label Grid.Column="1" Grid.Row="1" Content="Témakör Választás:" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="25" FontWeight="UltraBold" Background="LightSlateGray"/>
+        <Button x:Name="mitosz" Grid.Column="0" Grid.Row="1" Content="Mitológia" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="20" Background="LightSlateGray"/>
+        <Button x:Name="zene" Grid.Column="1" Grid.Row="1" Content="Zene" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="20" Background="LightSlateGray"/>
+        <Button x:Name="allatok" Grid.Column="2" Grid.Row="1" Content="Állatok" HorizontalAlignment="Center" VerticalAlignment="Bottom" Padding="20" Background="LightSlateGray"/>
+        <Button x:Name="tovabb" Grid.Column="2" Grid.Row="2" Content="Tovább" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="20" Width="120" Background="LightSlateGray"/>
+        <Label x:Name="hibauzenet" Content="Ide lesz majd hibauzenet, ha van" HorizontalAlignment="Left" Width="270" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
