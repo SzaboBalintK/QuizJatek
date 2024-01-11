@@ -18,10 +18,12 @@ namespace QuizGame
 {
     class Kerdesek
     {
+
         public int id { get; set; }
         public string kerdes { get; set; }
-        public string valasz { get; set; }
+        public string helyesvalasz { get; set; }
         public string valasz2 { get; set; }
+        public string valasz3 { get; set; }
         public string ido { get; set; }
         public string tema { get; set; }
 
@@ -30,14 +32,17 @@ namespace QuizGame
             string[] adatok = sor.Split(';');
             id = Convert.ToInt32(adatok[0]);
             kerdes = adatok[1];
-            valasz = adatok[2];
+            helyesvalasz = adatok[2];
             valasz2 = adatok[3];
-            ido = adatok[4];
-            tema = adatok[5];
+            valasz3 = adatok[4];
+            ido = adatok[5];
+            tema = adatok[6];
         }
     }
     public partial class Game : Page
     {
+        public static bool win;
+        public static bool megy = true;
         public Game()
         {
             InitializeComponent();
@@ -51,14 +56,69 @@ namespace QuizGame
             int randomid = rnd.Next(0, 0);
 
             kerdes_txt.Text = osszkerdes[0].kerdes;
-            valasz_elsoeleme.Content = osszkerdes[0].valasz;
+            valasz_elsoeleme.Content = osszkerdes[0].helyesvalasz;
             valasz_masodikeleme.Content = osszkerdes[0].valasz2;
+            valasz_harmadikeleme.Content = osszkerdes[0].valasz3;
 
         }
 
         private void vissza_gomb(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
+        }
+
+        private void helyes_valasz(object sender, RoutedEventArgs e)
+        {
+            valasz_elsoeleme.Background = Brushes.Green;
+            valasz_masodikeleme.Background = Brushes.Red;
+            valasz_harmadikeleme.Background = Brushes.Red;
+            win = true;
+            megy = false;
+
+
+            if (megy == false)
+            {
+                MessageBox.Show("Vége!");
+                valasz_elsoeleme.IsEnabled = false;
+                valasz_masodikeleme.IsEnabled = false;
+                valasz_harmadikeleme.IsEnabled = false;
+            }
+        }
+
+        private void rossz1_valasz(object sender, RoutedEventArgs e)
+        {
+            valasz_elsoeleme.Background = Brushes.Green;
+            valasz_masodikeleme.Background = Brushes.IndianRed;
+            valasz_harmadikeleme.Background = Brushes.Red;
+            win = false;
+            megy = false;
+
+
+            if (megy == false)
+            {
+                MessageBox.Show("Vége!");
+                valasz_elsoeleme.IsEnabled = false;
+                valasz_masodikeleme.IsEnabled = false;
+                valasz_harmadikeleme.IsEnabled = false;
+            }
+        }
+
+        private void rossz2_valasz(object sender, RoutedEventArgs e)
+        {
+            valasz_elsoeleme.Background = Brushes.Green;
+            valasz_masodikeleme.Background = Brushes.Red;
+            valasz_harmadikeleme.Background = Brushes.IndianRed;
+            win = false;
+            megy = false;
+
+
+            if (megy == false)
+            {
+                MessageBox.Show("Vége!");
+                valasz_elsoeleme.IsEnabled = false;
+                valasz_masodikeleme.IsEnabled = false;
+                valasz_harmadikeleme.IsEnabled = false;
+            }
         }
     }
 }
