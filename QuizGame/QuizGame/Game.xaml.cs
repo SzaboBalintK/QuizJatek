@@ -72,17 +72,17 @@ namespace QuizGame
             valasz_elsoeleme.Background = Brushes.Green;
             valasz_masodikeleme.Background = Brushes.Red;
             valasz_harmadikeleme.Background = Brushes.Red;
-            win = true;
-            megy = false;
-
-
-            if (megy == false)
+            //win = true;
+            //megy = false;
+            gyoztelvnem(1);
+            gomblathatosag(megy);
+            /*if (megy == false)
             {
                 MessageBox.Show("Vége!");
                 valasz_elsoeleme.IsEnabled = false;
                 valasz_masodikeleme.IsEnabled = false;
                 valasz_harmadikeleme.IsEnabled = false;
-            }
+            }*/
         }
 
         private void rossz1_valasz(object sender, RoutedEventArgs e)
@@ -90,17 +90,17 @@ namespace QuizGame
             valasz_elsoeleme.Background = Brushes.Green;
             valasz_masodikeleme.Background = Brushes.IndianRed;
             valasz_harmadikeleme.Background = Brushes.Red;
-            win = false;
-            megy = false;
-
-
-            if (megy == false)
+            //win = false;
+            //megy = false;
+            gyoztelvnem(0);
+            gomblathatosag(megy);
+            /*if (megy == false)
             {
                 MessageBox.Show("Vége!");
                 valasz_elsoeleme.IsEnabled = false;
                 valasz_masodikeleme.IsEnabled = false;
                 valasz_harmadikeleme.IsEnabled = false;
-            }
+            }*/
         }
 
         private void rossz2_valasz(object sender, RoutedEventArgs e)
@@ -108,16 +108,38 @@ namespace QuizGame
             valasz_elsoeleme.Background = Brushes.Green;
             valasz_masodikeleme.Background = Brushes.Red;
             valasz_harmadikeleme.Background = Brushes.IndianRed;
-            win = false;
-            megy = false;
-
-
-            if (megy == false)
+            //win = false;
+            //megy = false;
+            gyoztelvnem(0);
+            gomblathatosag(megy);
+            /*if (megy == false)
             {
                 MessageBox.Show("Vége!");
                 valasz_elsoeleme.IsEnabled = false;
                 valasz_masodikeleme.IsEnabled = false;
                 valasz_harmadikeleme.IsEnabled = false;
+            }*/
+        }
+        private void gomblathatosag(bool idk)
+        {
+                if (idk == false)
+                {
+                    MessageBox.Show("Vége!");
+                    valasz_elsoeleme.IsEnabled = false;
+                    valasz_masodikeleme.IsEnabled = false;
+                    valasz_harmadikeleme.IsEnabled = false;
+                }
+        }
+        private bool gyoztelvnem(int nyert)
+        {
+            megy = false;
+            if(nyert == 1) 
+            {
+                return win = true;
+            }
+            else
+            {
+                return win = false;
             }
         }
     }

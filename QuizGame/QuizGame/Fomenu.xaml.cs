@@ -17,6 +17,7 @@ namespace QuizGame
 {
     public partial class Fomenu : Page
     {
+        public static string nev;
         public Fomenu()
         {
             InitializeComponent();
@@ -24,6 +25,8 @@ namespace QuizGame
 
         private void next_btn(object sender, RoutedEventArgs e)
         {
+            //nev = jatekos_nev.Text;
+            //if(nev.Length != 0)
             NavigationService.Navigate(new Game());
         }
     }
