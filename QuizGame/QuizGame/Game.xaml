@@ -26,6 +26,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+            <Button Grid.Column="2" Content="tovább" HorizontalAlignment="Left" Margin="98,45,0,0" VerticalAlignment="Top" Height="53" Width="118"/>
         </Grid>
         <TextBlock x:Name="kerdes_txt"
            Text="Kérdés"
@@ -40,7 +41,9 @@
            TextWrapping="Wrap"/>
         <TextBox HorizontalAlignment="Left" Margin="78,319,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="168" Height="79"/>
         <Button Content="Button" HorizontalAlignment="Center" Margin="0,337,0,0" VerticalAlignment="Top" Height="43" Width="72"/>
-        <Label Content="eddigi hibák stb." HorizontalAlignment="Left" Margin="523,284,0,0" VerticalAlignment="Top" Height="114" Width="247" RenderTransformOrigin="0.365,0.343"/>
-        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label x:Name="hibak" Content="eddigi hibák stb." HorizontalAlignment="Left" Margin="523,284,0,0" VerticalAlignment="Top" Height="114" Width="247" RenderTransformOrigin="0.365,0.343"/>
+        <Button x:Name="vissza" Content="Vissza" HorizontalAlignment="Left" VerticalAlignment="Top" Click="vissza_gomb"/>
+        <Button x:Name="valasz_elsoeleme" Content="Button" HorizontalAlignment="Left" Margin="60,40,0,0" Grid.Row="2" VerticalAlignment="Top" Height="36" Width="143"/>
+        <Button x:Name="valasz_masodikeleme" Content="Button" HorizontalAlignment="Center" Margin="0,42,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.478,-1.445" Height="35" Width="119"/>
     </Grid>
 </Page>

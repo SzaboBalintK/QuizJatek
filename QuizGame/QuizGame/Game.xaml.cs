@@ -21,6 +21,7 @@ namespace QuizGame
         public int id { get; set; }
         public string kerdes { get; set; }
         public string valasz { get; set; }
+        public string valasz2 { get; set; }
         public string ido { get; set; }
         public string tema { get; set; }
 
@@ -30,8 +31,9 @@ namespace QuizGame
             id = Convert.ToInt32(adatok[0]);
             kerdes = adatok[1];
             valasz = adatok[2];
-            ido = adatok[3];
-            tema = adatok[4];
+            valasz2 = adatok[3];
+            ido = adatok[4];
+            tema = adatok[5];
         }
     }
     public partial class Game : Page
@@ -41,15 +43,22 @@ namespace QuizGame
             InitializeComponent();
 
             List<Kerdesek> osszkerdes = new List<Kerdesek>();
-            foreach (string sor in File.ReadAllLines("asd.txt"))
+            foreach (string sor in File.ReadAllLines("teszt.txt"))
             {
                 osszkerdes.Add(new Kerdesek(sor));
             }
             Random rnd = new Random();
-            int randomid = rnd.Next(1, 105);
+            int randomid = rnd.Next(0, 0);
 
-            kerdes_txt.Text = osszkerdes[12].kerdes;
-            
+            kerdes_txt.Text = osszkerdes[0].kerdes;
+            valasz_elsoeleme.Content = osszkerdes[0].valasz;
+            valasz_masodikeleme.Content = osszkerdes[0].valasz2;
+
+        }
+
+        private void vissza_gomb(object sender, RoutedEventArgs e)
+        {
+            NavigationService.GoBack();
         }
     }
 }
