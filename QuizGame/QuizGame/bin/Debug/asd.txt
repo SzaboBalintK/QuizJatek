@@ -58,6 +58,7 @@
 57;Mi a kígyó neve, amely a káoszt szimbolizálja az egyiptomi mitológiában?;Apep;Apis;Benu;22;mitologia
 58;Ki a tudás és bölcsesség istene az egyiptomi mitológiában?;Thoth;Mafdet;Kebehut;13;mitologia
 59;Mi a bogár neve, amelyet a feltámadáshoz kapcsolnak az egyiptomi mitológiában?;Skarab;Kígyó;Fülbemászó;30;mitologia
+<<<<<<< Updated upstream
 60;Mi a legnagyobb nagymacskafaj a világon?;Tigris;12;allatok
 61;Melyik madár ismert a képességéről, hogy utánozza az emberi beszédet?;Jákópapagáj;18;allatok
 62;Mi a legnagyobb emlős a világon?;Kék Bálna;24;allatok
@@ -101,4 +102,49 @@
 100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;29;zene
 101;Melyik görög mitológiai hős nevét viseli a hónapok közül egy?;Janus;Julius;Augustus;14;mitologia
 102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;22;allatok
+=======
+60;Mi a legnagyobb nagymacskafaj a világon?;Tigris;Oroszlán;Leopárd;12;allatok
+61;Melyik madár ismert a képességéről, hogy utánozza az emberi beszédet?;Jákópapagáj;Papagáj;Sas;18;allatok
+62;Mi a legnagyobb emlős a világon?;Kék Bálna;Elefánt;Bálna;24;allatok
+63;Mely teknős fajta híres hosszú nyakáról?;Aligátorteknős;Süni;Teknős;15;allatok
+64;Mi a leggyorsabb szárazföldi állat?;Gepárd;Szarvas;Antilop;29;allatok
+65;Melyik állat alszik állva, és fekete-fehér csíkokról ismert?;Zebra;Ló;Panda;20;allatok
+66;Mi az egyetlen emlős, amely képes hosszantartó repülésre?;Denevér;Sólyom;Lepke;13;allatok
+67;Melyik kígyó ismert a sisakjáról és halálos mérgéről?;Kobra;Vipera;Boa;26;allatok
+68;Mi a legnagyobb medvefaj?;Jegesmedve;Barna Medve;Panda;11;allatok
+69;Melyik rovar híres biolumineszcens fényéről?;Szentjános Bogár;Tűzhangya;Lepke;27;allatok
+70;Mi az ausztrál nemzeti állat?;Kenguru;Koala;Emu;17;allatok
+71;Melyik tengeri emlős híres agyar-szerű fogairól?;Narvál;Delfin;Fóka;22;allatok
+72;Mi a legnagyobb élő emberszabású?;Gorilla;Orangután;Csimpánz;14;allatok
+73;Melyik hal ismert arról, hogy ellenáll az áramlásnak, hogy így tud felszállni folyókban?;Lazac;Sügér;Pisztráng;30;allatok
+74;Mi a legnagyobb pingvinfaj?;Császárpingvin;Királypingvin;Fiatalpingvin;19;allatok
+75;Melyik állat a Világ Természetvédelmi Alap (WWF) szimbóluma?;Óriás Panda;Tigris;Elefánt;25;allatok
+76;Mi a legkisebb majomfaj?;Cebulla;Gibbon;Makákó;16;allatok
+77;Melyik teremtményt nevezik gyakran a "Dzsungel királyának"?;Oroszlán;Tigris;Jaguár;21;allatok
+78;Mi az egyetlen kontinens, ahol a zsiráfok vadon élnek?;Afrika;Ázsia;Ausztrália;28;allatok
+79;Melyik delfinfajta ismert megkülönböztető rózsaszín színéről?;Amazonasi Folyamidelfin;Bottlenose Delfin;Kaszpi-tengeri Delfin;15;allatok
+80;Mi a legnagyobb sasfajta?;Haast-féle Sas;Harpia Sas;Fekete Sas;22;allatok
+81;Melyik rovar híres hihetetlen erejéről a méretéhez képest?;Ganajtúró Bogár;Rozsdás Bogár;Hangyabogár;17;allatok
+82;Mi az egyetlen erszényes, ami az Egyesült Államokban honos?;Oposszum;Kanguru;Koala;13;allatok
+83;Mi az a teremtmény, amit a "sivatag hajója" néven ismernek?;Puputeve;Puptalanteve;Kaktuszegér;19;allatok
+84;Mi a leggyorsabb tengeri állat?;Vitorláshal;Delfin;Bálna;14;allatok
+85;Melyik rágcsáló híres gátépítő viselkedéséről?;Hód;Mókus;Patkány;20;allatok
+86;Mi a legnagyobb cápafaj?;Fehér Cápa;Bálnacápa;Tigriscápa;12;allatok
+87;Melyik madár híres hosszú, hajlított csőréről és élénk színű tollazatáról?;Tukán;Flamingó;Pelikán;18;allatok
+88;Mi a legnagyobb szárazföldi emlős faj?;Afrikai Elefánt;Indiai Elefánt;Mamut;25;allatok
+89;Melyik nagymacskafaj ismert jellegzetes fekete sörényéről?;Oroszlán;Párduc;Jaguar;10;allatok
+90;Mi a legnagyobb béka fajta?;Góliát Béka;Őz Béka;Vörös Szemű Béka;27;allatok
+91;Melyik teremtményt hívják gyakran a "bölcs öreg madárnak"?;Bagoly;Héja;Sólyom;23;allatok
+92;Mi az egyetlen erszényes, amelyet Ausztrálián kívül is megtalálnak?;Virginiai Oposszum;Morszka;Vadászgörény;16;allatok
+93;Melyik nagymacskafajta ismert jellegzetes fekete foltjairól vagy rozettáiról?;Jaguár;Leopárd;Puma;21;allatok
+94;Mi a legnagyobb hangya faja?;Bullet Ant;Tűzhangya;Lazac;26;allatok
+95;Ki a római mitológiában az istenek királya?;Jupiter;Vénusz;Mars;17;mitologia
+96;Melyik görög mitológiai lénynek van Medusa feje a pajzsán?;Athena;Heracles;Artemis;25;mitologia
+97;Melyik madár a legnagyobb szárnyfesztávolságú a világon?;Albatrosz;Sólyom;Vándorsólyom;14;allatok
+98;Melyik állatot nevezik gyakran a "szivárvány hala"-nak a színes külseje miatt?;Szivárványos pisztráng;Harcsa;Napfényhal;22;allatok
+99;Ki komponálta a "Peer Gynt" című zenei szvitet?;Edvard Grieg;18;zene
+100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;29;zene
+101;Melyik görög mitológiai hős nevét viseli a hónapok közül egy?;Janus;Julius;Augustus;14;mitologia
+102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;Márk visszatér;Bálna22;allatok
+>>>>>>> Stashed changes
 103;Ki komponálta a "A varázsfuvola" című operát?;Wolfgang Amadeus Mozart;18;zene
