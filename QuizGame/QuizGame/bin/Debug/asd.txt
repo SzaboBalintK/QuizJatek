@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;20;zene
 1;Melyik zeneszerző híres a "Symphony No. 9"-ről a "Joy Ode" kórusmozgással?;Ludwig van Beethoven;12;zene
 2;Melyik korszakban komponált legtöbb zeneművet Wolfgang Amadeus Mozart?;Klasszikus;28;zene
@@ -21,6 +22,31 @@
 20;Mi a kifejezés egy zenemű számára, amelyben a szóló hangszer egy zenekar kíséretével szerepel?;Concerto;23;zene
 21;Ki az olasz zeneszerző, akit operái, mint a "Traviata" és a "Rigoletto" tettek híressé?;Giuseppe Verdi;10;zene
 22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;14;zene
+=======
+0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Liszt Ferenc;Frederick Chopin;20;zene
+1;Melyik zeneszerző híres a 9.-ik szimfóniáról az Örömóda kórusmozgással?;Ludwig van Beethoven;W. A. Mozart;J. Bach;12;zene
+2;Melyik korszakban komponált legtöbb zeneművet Wolfgang Amadeus Mozart?;Klasszikus;Modern;Barokk;28;zene
+3;Mi a kifejezés egy szóló hangszer számára, amely általában a művész készségeit mutatja be?;Concerto;Allegretto;Vitruoso;14;zene
+4;Ki ismert a Négy Évszak hegedűversenysorozat komponálásáért?;Antonio Vivaldi;L. A. Mozart;30;zene
+5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a Diótörő zenéjét?;P. I. Tchaikovsky;F. Chopin;S. Shostakovich18;zene
+6;Mi a kifejezés egy olyan zenemű számára, amelyben a hangok emelkednek majd csökkennek?;kupolás;szimmetrikus;ódivatú;25;zene
+7;Ki komponálta a híres Holdfény szonátát zongorára?;Ludwig van Beethoven;W. A. Mozart;F. Chopin;10;zene
+8;Mely korszakban virágzott Johann Sebastian Bach, George Frideric Handel és Antonio Vivaldi?;Barokk;Rokokó;Gótiku;22;zene
+9;Mi a zenei kifejezés a hangerő fokozatos növekedéséhez?;crescendo;decrescendo;ritmuoso;16;zene
+10;Ki számít a "szimfónia atyjának" és a "vonósnégyes atyjának"?;Franz Joseph Haydn;J. Bach; L. Beethoven;26;zene
+11;Mi a kifejezés egy három vokális részre írt kompozícióhoz?;Trio Sonata;Duo Sonata; Solo Sonata;13;zene
+12;Melyik korszakban történt Ludwig van Beethoven átmenete a klasszikus zenétől a romantikusig?(Évszázadra kerekítve.);1800;1700;1900;29;zene
+13;Ki ismert a "Figaro házasságáért" című operájáról?;W. A. Mozart;F. Haydn;Liszt Ferenc;15;zene
+14;Mi a kifejezés két vagy több hang egyidejű lejátszásához akkord létrehozásához?;Harmónia;Akkord;Terc;21;zene
+15;Ki komponálta a Hattyúk tava baletteket?;Camille Saint-Saens;P. I. Tchaikovsky;A. Vivaldi;11;zene
+16;Mi a kifejezés egy 'pattogós' hangütésnek?Stacatto;Concerto;Marcato;27;zene
+17;Melyik zeneszerző társul a barokk korszakkal, és komponálta a Vízzenét?;G. F. Handel;F. Haydn;J. Bach;17;zene
+18;Mely korszakban komponált Franz Schubert híres liederjeit (műdalok)?;Romantika;Román;Gótiku;24;zene
+19;Ki ismert a Brandenburgi versenyművekért?;J. Bach;W. A. Mozart;L. A. Mozart;19;zene
+20;Mi a kifejezés egy hangsúlyos leütésnek?Marcato;Moderato;Tenuto;23;zene
+21;Ki az olasz zeneszerző, akit operái, mint a Traviata és a Rigoletto tettek híressé?;Giuseppe Verdi;Bartolomeo Diaz;Tyborg;10;zene
+22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
+>>>>>>> Stashed changes
 23;Mi a kifejezés a zenei darab sebességére vagy tempójára?;Pace;28;zene
 24;Ki komponálta a "Bolygókat", egy szvitet az egyes bolygókhoz tartozó tételekkel?;Gustav Holst;20;zene
 25;Ki a görög mitológiában az istenek királya?;Zeus;Atlas;Hercules;10;mitologia
