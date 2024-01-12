@@ -21,8 +21,6 @@
 20;Mi a kifejezés egy hangsúlyos leütésnek?Marcato;Moderato;Tenuto;23;zene
 21;Ki az olasz zeneszerző, akit operái, mint a Traviata és a Rigoletto tettek híressé?;Giuseppe Verdi;Bartolomeo Diaz;Tyborg;10;zene
 22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
-
-
 24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;69;20;zene
 25;Ki a görög mitológiában az istenek királya?;Zeus;Atlas;Hercules;10;mitologia
 26;Melyik lénynek van bikafeje és emberi teste a görög mitológiában?;Minotaurusz;Kentaur;Griffin;15;mitologia
@@ -41,8 +39,6 @@
 39;Ki a tréfamester isten a norvég mitológiában?;Loki;Thor;Odin14;mitologia
 40;Melyik istennő társul a szerelemhez és a szépséghez a norvég mitológiában?;Frigg;Freya;Hödr;20;mitologia
 41;Melyik lény jelzi a Ragnarok eljövetelét a norvég mitológiában?;Fenrir;Cerberus;Ragnarok;11;mitologia
-
-
 43;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;Hodr;Hermod;19;mitologia
 44;Mi Odin hollóinak a neve a norvég mitológiában?(Vesszővel elválasztva!);Huginn & Muninn;Hughie & Michael;Harald & Björn;26;mitologia
 45;Ki az alvilág istene az egyiptomi mitológiában?;Anubis;Bastet;Geb;10;mitologia
