@@ -23,6 +23,7 @@
 22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
 23;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
 24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;20;zene
+24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;69;20;zene
 25;Ki a görög mitológiában az istenek királya?;Zeus;Atlas;Hercules;10;mitologia
 26;Melyik lénynek van bikafeje és emberi teste a görög mitológiában?;Minotaurusz;Kentaur;Griffin;15;mitologia
 27;Ki a bölcsesség és háború istennője a görög mitológiában?;Athena;Pallas Athene;Medusa;25;mitologia
