@@ -18,7 +18,6 @@ namespace QuizGame
 {
     class Kerdesek
     {
-
         public int id { get; set; }
         public string kerdes { get; set; }
         public string helyesvalasz { get; set; }
@@ -26,8 +25,9 @@ namespace QuizGame
         public string valasz3 { get; set; }
         public string ido { get; set; }
         public string tema { get; set; }
-
-        public Kerdesek (string sor)
+        //0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Liszt Ferenc; Frederick Chopin;20;zene
+        //0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Alma;Pite;20;zene
+        public Kerdesek(string sor)
         {
             string[] adatok = sor.Split(';');
             id = Convert.ToInt32(adatok[0]);
@@ -46,19 +46,21 @@ namespace QuizGame
         public Game()
         {
             InitializeComponent();
+            //42-es és a 23-as sor nincs
 
             List<Kerdesek> osszkerdes = new List<Kerdesek>();
-            foreach (string sor in File.ReadAllLines("teszt.txt"))
+            foreach (string sor in File.ReadAllLines("asd.txt"))
             {
                 osszkerdes.Add(new Kerdesek(sor));
             }
-            Random rnd = new Random();
-            int randomid = rnd.Next(0, 0);
+            //Random rnd = new Random();
+            //int randomid = rnd.Next(0, 0);
 
-            kerdes_txt.Text = osszkerdes[0].kerdes;
+            /*kerdes_txt.Text = osszkerdes[0].kerdes;
             valasz_elsoeleme.Content = osszkerdes[0].helyesvalasz;
             valasz_masodikeleme.Content = osszkerdes[0].valasz2;
-            valasz_harmadikeleme.Content = osszkerdes[0].valasz3;
+            valasz_harmadikeleme.Content = osszkerdes[0].valasz3;*/
+            kerdesek_betolt();
 
         }
 
@@ -102,7 +104,6 @@ namespace QuizGame
                 valasz_harmadikeleme.IsEnabled = false;
             }*/
         }
-
         private void rossz2_valasz(object sender, RoutedEventArgs e)
         {
             valasz_elsoeleme.Background = Brushes.Green;
@@ -122,18 +123,18 @@ namespace QuizGame
         }
         private void gomblathatosag(bool idk)
         {
-                if (idk == false)
-                {
-                    MessageBox.Show("Vége!");
-                    valasz_elsoeleme.IsEnabled = false;
-                    valasz_masodikeleme.IsEnabled = false;
-                    valasz_harmadikeleme.IsEnabled = false;
-                }
+            if (idk == false)
+            {
+                MessageBox.Show("Vége!");
+                valasz_elsoeleme.IsEnabled = false;
+                valasz_masodikeleme.IsEnabled = false;
+                valasz_harmadikeleme.IsEnabled = false;
+            }
         }
         private bool gyoztelvnem(int nyert)
         {
             megy = false;
-            if(nyert == 1) 
+            if (nyert == 1)
             {
                 return win = true;
             }
@@ -141,6 +142,28 @@ namespace QuizGame
             {
                 return win = false;
             }
+        }
+
+        private void kerdesek_betolt()
+        {
+            List<Kerdesek> sorok = new List<Kerdesek>();
+            foreach (string sor in File.ReadAllLines("asd.txt"))
+                sorok.Add(new Kerdesek(sor));
+
+            string tema = Fomenu.temanev;
+
+            List<Kerdesek> temahoz_szavak = sorok
+                .Where(szo => szo.tema == tema)
+                .ToList();
+            Random random = new Random();
+            int randomszam = random.Next(0, temahoz_szavak.Count());//ez lehet nem jo igy
+            //Kerdesek selectedQuestion = temahoz_szavak[ra];
+            kerdes_txt.Text = temahoz_szavak[randomszam].kerdes;
+            valasz_elsoeleme.Content = temahoz_szavak[randomszam].helyesvalasz;
+            valasz_masodikeleme.Content = temahoz_szavak[randomszam].valasz2;
+            valasz_harmadikeleme.Content = temahoz_szavak[randomszam].valasz3;
+
+
         }
     }
 }

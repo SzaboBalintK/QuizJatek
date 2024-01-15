@@ -18,6 +18,7 @@ namespace QuizGame
     public partial class Fomenu : Page
     {
         public static string nev;
+        public static string temanev;
         public Fomenu()
         {
             InitializeComponent();
@@ -44,5 +45,20 @@ namespace QuizGame
 
         }
 
+        private void allatok_click(object sender, RoutedEventArgs e)
+        {
+            temanev = "allatok";
+            NavigationService.Navigate(new Game());
+        }
+
+        private void zene_click(object sender, RoutedEventArgs e)
+        {
+            temanev = "zene";
+        }
+
+        private void mitosz_click(object sender, RoutedEventArgs e)
+        {
+            temanev = "mitologia";
+        }
     }
 }

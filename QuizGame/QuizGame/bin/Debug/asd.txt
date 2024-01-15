@@ -2,8 +2,8 @@
 1;Melyik zeneszerző híres a 9.-ik szimfóniáról az Örömóda kórusmozgással?;Ludwig van Beethoven;W. A. Mozart;J. Bach;12;zene
 2;Melyik korszakban komponált legtöbb zeneművet Wolfgang Amadeus Mozart?;Klasszikus;Modern;Barokk;28;zene
 3;Mi a kifejezés egy szóló hangszer számára, amely általában a művész készségeit mutatja be?;Concerto;Allegretto;Vitruoso;14;zene
-4;Ki ismert a Négy Évszak hegedűversenysorozat komponálásáért?;Antonio Vivaldi;L. A. Mozart;30;zene
-5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a Diótörő zenéjét?;P. I. Tchaikovsky;F. Chopin;S. Shostakovich18;zene
+4;Ki ismert a Négy Évszak hegedűversenysorozat komponálásáért?;Antonio Vivaldi;L. A. Mozart;Csongor;30;zene
+5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a Diótörő zenéjét?;P. I. Tchaikovsky;F. Chopin;S. Shostakovich;18;zene
 6;Mi a kifejezés egy olyan zenemű számára, amelyben a hangok emelkednek majd csökkennek?;kupolás;szimmetrikus;ódivatú;25;zene
 7;Ki komponálta a híres Holdfény szonátát zongorára?;Ludwig van Beethoven;W. A. Mozart;F. Chopin;10;zene
 8;Mely korszakban virágzott Johann Sebastian Bach, George Frideric Handel és Antonio Vivaldi?;Barokk;Rokokó;Gótiku;22;zene
@@ -13,23 +13,22 @@
 12;Melyik korszakban történt Ludwig van Beethoven átmenete a klasszikus zenétől a romantikusig?(Évszázadra kerekítve.);1800;1700;1900;29;zene
 13;Ki ismert a "Figaro házasságáért" című operájáról?;W. A. Mozart;F. Haydn;Liszt Ferenc;15;zene
 14;Mi a kifejezés két vagy több hang egyidejű lejátszásához akkord létrehozásához?;Harmónia;Akkord;Terc;21;zene
-15;Ki komponálta a Hattyúk tava baletteket?;Camille Saint-Saens;11;P. I. Tchaikovsky;A. Vivaldi;zene
-16;Mi a kifejezés egy 'pattogós' hangütésnek?Stacatto;Concerto;Marcato;27;zene
+15;Ki komponálta a Hattyúk tava baletteket?;Camille Saint-Saens;P. I. Tchaikovsky;A. Vivaldi;15;zene
+16;Mi a kifejezés egy 'pattogós' hangütésnek?;Stacatto;Concerto;Marcato;27;zene
 17;Melyik zeneszerző társul a barokk korszakkal, és komponálta a Vízzenét?;G. F. Handel;F. Haydn;J. Bach;17;zene
 18;Mely korszakban komponált Franz Schubert híres liederjeit (műdalok)?;Romantika;Román;Gótiku;24;zene
 19;Ki ismert a Brandenburgi versenyművekért?;J. Bach;W. A. Mozart;L. A. Mozart;19;zene
-20;Mi a kifejezés egy hangsúlyos leütésnek?Marcato;Moderato;Tenuto;23;zene
+20;Mi a kifejezés egy hangsúlyos leütésnek?;Marcato;Moderato;Tenuto;23;zene
 21;Ki az olasz zeneszerző, akit operái, mint a Traviata és a Rigoletto tettek híressé?;Giuseppe Verdi;Bartolomeo Diaz;Tyborg;10;zene
 22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
-
-
-24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;69;20;zene
+23;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
+24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;20;zene
 25;Ki a görög mitológiában az istenek királya?;Zeus;Atlas;Hercules;10;mitologia
 26;Melyik lénynek van bikafeje és emberi teste a görög mitológiában?;Minotaurusz;Kentaur;Griffin;15;mitologia
-27;Ki a bölcsesség és háború istennője a görög mitológiában?;Athena;Pallas Athene;Medusa25;mitologia
+27;Ki a bölcsesség és háború istennője a görög mitológiában?;Athena;Pallas Athene;Medusa;25;mitologia
 28;Mi a neve a szárnyas lónak a görög mitológiában?;Pegazus;Unikornis;Hűséges;12;mitologia
 29;Ki a tenger istene a görög mitológiában?;Poseidon;Hebe;Demeter;28;mitologia
-30;Melyik hős küzdött a Gorgó Medusával a görög mitológiában?;Perseus;Heracles;Persephone17;mitologia
+30;Melyik hős küzdött a Gorgó Medusával a görög mitológiában?;Perseus;Heracles;Persephone;17;mitologia
 31;Ki a pokol királynője a görög mitológiában?;Persephone;Hera;Hades;22;mitologia
 32;Mi volt Pandora híres ládájának a neve a görög mitológiában?;Pandora Doboza;Pandora Ládikója;Pandora Titka;13;mitologia
 33;Ki a zene, költészet és jóslás istene a görög mitológiában?;Apollo;Hermes;Zeus;29;mitologia
@@ -37,12 +36,11 @@
 35;Ki az összes isten atyja a norvég mitológiában?;Odin;Tyr;Baldr;12;mitologia
 36;Mi a neve Thor varázsüllőjének a norvég mitológiában?;Mjölnir;Njörd;Frey;23;mitologia
 37;Mely lény őrzi a Hel birodalom bejáratát a norvég mitológiában?;Garmr;Fenrir;Vali;15;mitologia
-38;Mi a neve a világfának a norvég mitológiában?;Yggdrasil;Valhalla;Nilfheim27;mitologia
-39;Ki a tréfamester isten a norvég mitológiában?;Loki;Thor;Odin14;mitologia
+38;Mi a neve a világfának a norvég mitológiában?;Yggdrasil;Valhalla;Nilfheim;27;mitologia
+39;Ki a tréfamester isten a norvég mitológiában?;Loki;Thor;Odin;14;mitologia
 40;Melyik istennő társul a szerelemhez és a szépséghez a norvég mitológiában?;Frigg;Freya;Hödr;20;mitologia
 41;Melyik lény jelzi a Ragnarok eljövetelét a norvég mitológiában?;Fenrir;Cerberus;Ragnarok;11;mitologia
-
-
+42;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;Hodr;Hermod;19;mitologia
 43;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;Hodr;Hermod;19;mitologia
 44;Mi Odin hollóinak a neve a norvég mitológiában?(Vesszővel elválasztva!);Huginn & Muninn;Hughie & Michael;Harald & Björn;26;mitologia
 45;Ki az alvilág istene az egyiptomi mitológiában?;Anubis;Bastet;Geb;10;mitologia
@@ -99,7 +97,7 @@
 96;Melyik görög mitológiai lénynek van Medusa feje a pajzsán?;Athena;Heracles;Artemis;25;mitologia
 97;Melyik madár a legnagyobb szárnyfesztávolságú a világon?;Albatrosz;Sólyom;Vándorsólyom;14;allatok
 98;Melyik állatot nevezik gyakran a "szivárvány hala"-nak a színes külseje miatt?;Szivárványos pisztráng;Harcsa;Napfényhal;22;allatok
-99;Ki komponálta a "Peer Gynt" című zenei szvitet?;Edvard Grieg;18;zene
-100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;29;zene
+99;Ki komponálta a "Peer Gynt" című zenei szvitet?;Edvard Grieg;Miami;Year;18;zene
+100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;Albert;Kancsi;29;zene
 101;Melyik görög mitológiai hős nevét viseli a hónapok közül egy?;Janus;Julius;Augustus;14;mitologia
-102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;Márk visszatér;Bálna22;allatok
+102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;Márk visszatér;Bálna;22;allatok
