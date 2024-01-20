@@ -42,7 +42,10 @@ namespace QuizGame
     public partial class Game : Page
     {
         public static bool win;
-        public static bool megy = true;
+        //public static bool megy = true;
+        public static int ido = 0;
+        public static int current_kerdesek = 0;
+        public static int all_keredesek = Fomenu.korokszama;
         public Game()
         {
             InitializeComponent();
@@ -60,6 +63,7 @@ namespace QuizGame
             valasz_elsoeleme.Content = osszkerdes[0].helyesvalasz;
             valasz_masodikeleme.Content = osszkerdes[0].valasz2;
             valasz_harmadikeleme.Content = osszkerdes[0].valasz3;*/
+            kerdesekszama.Content = Convert.ToString(current_kerdesek + "/" + all_keredesek);
             kerdesek_betolt();
 
         }
@@ -71,13 +75,13 @@ namespace QuizGame
 
         private void helyes_valasz(object sender, RoutedEventArgs e)
         {
-            valasz_elsoeleme.Background = Brushes.Green;
-            valasz_masodikeleme.Background = Brushes.Red;
-            valasz_harmadikeleme.Background = Brushes.Red;
+            //valasz_elsoeleme.Background = Brushes.Green;
+            //valasz_masodikeleme.Background = Brushes.Red;
+            //valasz_harmadikeleme.Background = Brushes.Red;
             //win = true;
             //megy = false;
-            gyoztelvnem(1);
-            gomblathatosag(megy);
+            //gyoztelvnem(1);
+            //gomblathatosag(megy);
             /*if (megy == false)
             {
                 MessageBox.Show("Vége!");
@@ -89,13 +93,13 @@ namespace QuizGame
 
         private void rossz1_valasz(object sender, RoutedEventArgs e)
         {
-            valasz_elsoeleme.Background = Brushes.Green;
-            valasz_masodikeleme.Background = Brushes.IndianRed;
-            valasz_harmadikeleme.Background = Brushes.Red;
+            //valasz_elsoeleme.Background = Brushes.Green;
+            //valasz_masodikeleme.Background = Brushes.IndianRed;
+            //valasz_harmadikeleme.Background = Brushes.Red;
             //win = false;
             //megy = false;
-            gyoztelvnem(0);
-            gomblathatosag(megy);
+            //gyoztelvnem(0);
+            //gomblathatosag(megy);
             /*if (megy == false)
             {
                 MessageBox.Show("Vége!");
@@ -106,13 +110,13 @@ namespace QuizGame
         }
         private void rossz2_valasz(object sender, RoutedEventArgs e)
         {
-            valasz_elsoeleme.Background = Brushes.Green;
-            valasz_masodikeleme.Background = Brushes.Red;
-            valasz_harmadikeleme.Background = Brushes.IndianRed;
+            //valasz_elsoeleme.Background = Brushes.Green;
+            //valasz_masodikeleme.Background = Brushes.Red;
+            //valasz_harmadikeleme.Background = Brushes.IndianRed;
             //win = false;
             //megy = false;
-            gyoztelvnem(0);
-            gomblathatosag(megy);
+            //gyoztelvnem(0);
+            //gomblathatosag(megy);
             /*if (megy == false)
             {
                 MessageBox.Show("Vége!");
@@ -133,7 +137,7 @@ namespace QuizGame
         }
         private bool gyoztelvnem(int nyert)
         {
-            megy = false;
+            //megy = false;
             if (nyert == 1)
             {
                 return win = true;
@@ -152,9 +156,7 @@ namespace QuizGame
 
             string tema = Fomenu.temanev;
 
-            List<Kerdesek> temahoz_szavak = sorok
-                .Where(szo => szo.tema == tema)
-                .ToList();
+            List<Kerdesek> temahoz_szavak = sorok.Where(szo => szo.tema == tema).ToList();
             Random random = new Random();
             int randomszam = random.Next(0, temahoz_szavak.Count());//ez lehet nem jo igy
             //Kerdesek selectedQuestion = temahoz_szavak[ra];

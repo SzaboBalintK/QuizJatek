@@ -19,6 +19,7 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="2.5*"/>
             </Grid.ColumnDefinitions>
+            <Label x:Name="kerdesekszama" Grid.Column="1" Content="0/0" HorizontalAlignment="Left" Margin="453,20,0,0" VerticalAlignment="Top"/>
         </Grid>
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>

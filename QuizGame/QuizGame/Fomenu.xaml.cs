@@ -19,46 +19,98 @@ namespace QuizGame
     {
         public static string nev;
         public static string temanev;
+        public static int korokszama;
+        public static bool kerdesek_helyzete;
         public Fomenu()
         {
             InitializeComponent();
             hibauzenet.Visibility = Visibility.Hidden;
+            jatekos_nev.Text = "a";
         }
 
         private void next_btn(object sender, RoutedEventArgs e)
         {
-            //nev = jatekos_nev.Text;
-            //if(String.IsNullOrWhiteSpace(nev) != true && nev.Contains(";") != true)
-            //{
+            nev = jatekos_nev.Text;
+            if(String.IsNullOrWhiteSpace(nev) != true && nev.Contains(";") != true && String.IsNullOrWhiteSpace(temanev) == false && korokszama >= 10)
+            {
             NavigationService.Navigate(new Game());
-            //}
-            /*if(String.IsNullOrWhiteSpace(nev))
+            }
+            if (String.IsNullOrWhiteSpace(temanev) && String.IsNullOrWhiteSpace(nev))
+            {
+                hibauzenet.Visibility = Visibility.Visible;
+                hibauzenet.Content = "Nincs téma kiválasztva!\nNincs f.név megadva!";
+            }
+            else if (String.IsNullOrWhiteSpace(nev))
             {
                 hibauzenet.Visibility = Visibility.Visible;
                 hibauzenet.Content = "Adj meg betűket f.névhez!";
             }
-            if(nev.Contains(";"))
+            else if (String.IsNullOrWhiteSpace(temanev))
+            {
+                hibauzenet.Visibility = Visibility.Visible;
+                hibauzenet.Content = "Nincs téma kiválasztva!";
+            }
+            if (nev.Contains(";"))
             {
                 hibauzenet.Visibility = Visibility.Visible;
                 hibauzenet.Content = "Nem lehet benne ilyen karakter! (';')";
-            }*/
+            }
+            if(korokszama <= 10)
+            {
+                hibauzenet.Visibility = Visibility.Visible;
+                hibauzenet.Content = "Válassz egy számot!";
+            }
+
+
 
         }
-
-        private void allatok_click(object sender, RoutedEventArgs e)
+        private void mitosz_click(object sender, RoutedEventArgs e)
         {
-            temanev = "allatok";
-            NavigationService.Navigate(new Game());
+            if (kerdesek_helyzete == false)
+            {
+                temanev = "mitologia";
+                korokszama_kerdes();
+            }
+            else
+            {
+                korokszama = 10;
+            }
+
         }
 
         private void zene_click(object sender, RoutedEventArgs e)
         {
-            temanev = "zene";
+            if (kerdesek_helyzete == false)
+            {
+                temanev = "zene";
+                korokszama_kerdes();
+            }
+            else
+            {
+                korokszama = 15;
+            }
         }
 
-        private void mitosz_click(object sender, RoutedEventArgs e)
+        private void allatok_click(object sender, RoutedEventArgs e)
         {
-            temanev = "mitologia";
+            if (kerdesek_helyzete == false)
+            {
+                temanev = "allatok";
+                korokszama_kerdes();
+            }
+            else
+            {
+                korokszama = 20;
+            }
+        }
+
+        private void korokszama_kerdes()
+        {
+            kerdesek_label.Content = "Kérdések Száma:";
+            mitosz.Content = "10";
+            zene.Content = "15";
+            allatok.Content = "20";
+            kerdesek_helyzete = true;
         }
     }
 }
