@@ -74,6 +74,7 @@ namespace QuizGame
             else
             {
                 korokszama = 10;
+                eltunnek();
             }
 
         }
@@ -88,6 +89,7 @@ namespace QuizGame
             else
             {
                 korokszama = 15;
+                eltunnek();
             }
         }
 
@@ -101,6 +103,7 @@ namespace QuizGame
             else
             {
                 korokszama = 20;
+                eltunnek();
             }
         }
 
@@ -111,6 +114,14 @@ namespace QuizGame
             zene.Content = "15";
             allatok.Content = "20";
             kerdesek_helyzete = true;
+        }
+        private void eltunnek()
+        {
+            mitosz.Visibility = Visibility.Hidden;
+            zene.Visibility = Visibility.Hidden;
+            allatok.Visibility = Visibility.Hidden;
+            kerdesek_label.Content = "Sok szerencsét!";
+
         }
     }
 }
