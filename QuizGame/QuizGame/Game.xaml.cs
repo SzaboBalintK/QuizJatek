@@ -52,12 +52,14 @@ namespace QuizGame
         public static int olvasasi_ido = 0;
         public static int jo_valaszok_szama = 0;
         public static bool ido_vege = true;
+        public static bool gomb_ido = true;
         DispatcherTimer timer = new DispatcherTimer();
         public Game()
         {
             InitializeComponent();
             //42-es és a 23-as sor nincs
             kerdes_kozti_ido.Visibility = Visibility.Hidden;//ezt majd ki kell törölni
+            vissza.Background = Brushes.White;
             List<Kerdesek> osszkerdes = new List<Kerdesek>();
             foreach (string sor in File.ReadAllLines("asd.txt"))
             {
@@ -72,6 +74,7 @@ namespace QuizGame
             valasz_harmadikeleme.Content = osszkerdes[0].valasz3;*/
             kerdesekszama.Content = Convert.ToString(current_kerdesek + "/" + all_keredesek);
             ido_label.Content = "Idő: " + ido.ToString();
+            timer.Interval = TimeSpan.FromSeconds(1);
             //valasz_harmadikeleme.Visibility = Visibility.Hidden;
             kerdesek_betolt();
 
@@ -85,72 +88,53 @@ namespace QuizGame
 
         private void helyes_valasz(object sender, RoutedEventArgs e)
         {
-            valasz_elsoeleme.Background = Brushes.Green;
-            valasz_masodikeleme.Background = Brushes.Red;
-            valasz_harmadikeleme.Background = Brushes.Red;
-            jo_valaszok_szama++;
-
-            timer.Tick += TimerTick;
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Start();
-            //kerdesek_betolt();
-
-
-            //win = true;
-            //megy = false;
-            //gyoztelvnem(1);
-            //gomblathatosag(megy);
-            /*if (megy == false)
+            if(gomb_ido)
             {
-                MessageBox.Show("Vége!");
-                valasz_elsoeleme.IsEnabled = false;
-                valasz_masodikeleme.IsEnabled = false;
-                valasz_harmadikeleme.IsEnabled = false;
-            }*/
+                gomb_ido = false;
+                valasz_elsoeleme.Background = Brushes.Green;
+                valasz_masodikeleme.Background = Brushes.Red;
+                valasz_harmadikeleme.Background = Brushes.Red;
+                jo_valaszok_szama++;
+                timer.Tick += TimerTick;
+                timer.Interval = TimeSpan.FromSeconds(1);
+                kerdes_kozti_ido.Visibility = Visibility.Visible;
+                kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
+                timer.Start();
+            }
+            //kerdesek_betolt();
         }
 
         private void rossz1_valasz(object sender, RoutedEventArgs e)
         {
-            valasz_elsoeleme.Background = Brushes.Green;
-            valasz_masodikeleme.Background = Brushes.IndianRed;
-            valasz_harmadikeleme.Background = Brushes.Red;
-            timer.Tick += TimerTick;
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Start();
-            //kerdesek_betolt();
-
-            //win = false;
-            //megy = false;
-            //gyoztelvnem(0);
-            //gomblathatosag(megy);
-            /*if (megy == false)
+            if(gomb_ido)
             {
-                MessageBox.Show("Vége!");
-                valasz_elsoeleme.IsEnabled = false;
-                valasz_masodikeleme.IsEnabled = false;
-                valasz_harmadikeleme.IsEnabled = false;
-            }*/
+                gomb_ido = false;
+                valasz_elsoeleme.Background = Brushes.Green;
+                valasz_masodikeleme.Background = Brushes.IndianRed;
+                valasz_harmadikeleme.Background = Brushes.Red;
+                timer.Tick += TimerTick;
+                timer.Interval = TimeSpan.FromSeconds(1);
+                kerdes_kozti_ido.Visibility = Visibility.Visible;
+                kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
+                timer.Start();
+            }
+            //kerdesek_betolt();
         }
         private void rossz2_valasz(object sender, RoutedEventArgs e)
         {
-            valasz_elsoeleme.Background = Brushes.Green;
-            valasz_masodikeleme.Background = Brushes.Red;
-            valasz_harmadikeleme.Background = Brushes.IndianRed;
-            timer.Tick += TimerTick;
-            timer.Interval = TimeSpan.FromSeconds(1);
-            timer.Start();
-            //kerdesek_betolt();
-            //win = false;
-            //megy = false;
-            //gyoztelvnem(0);
-            //gomblathatosag(megy);
-            /*if (megy == false)
+            if(gomb_ido)
             {
-                MessageBox.Show("Vége!");
-                valasz_elsoeleme.IsEnabled = false;
-                valasz_masodikeleme.IsEnabled = false;
-                valasz_harmadikeleme.IsEnabled = false;
-            }*/
+                gomb_ido = false;
+                valasz_elsoeleme.Background = Brushes.Green;
+                valasz_masodikeleme.Background = Brushes.Red;
+                valasz_harmadikeleme.Background = Brushes.IndianRed;
+                timer.Tick += TimerTick;
+                timer.Interval = TimeSpan.FromSeconds(1);
+                kerdes_kozti_ido.Visibility = Visibility.Visible;
+                kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
+                timer.Start();
+            }
+            //kerdesek_betolt()
         }
         private void gomblathatosag(bool idk)
         {
@@ -182,11 +166,12 @@ namespace QuizGame
                 MessageBox.Show(current_kerdesek.ToString());
                 //ide jon majd az uj kiertekelos page;
             }
-            if(ido_vege == true)
+            if(ido_vege == true && current_kerdesek != all_keredesek)
             {
                 gombszinek();
                 current_kerdesek++;
                 ido_vege = false;
+                //timer.Tick -= TimerTick;
                 List<Kerdesek> sorok = new List<Kerdesek>();
                 foreach (string sor in File.ReadAllLines("asd.txt"))
                     sorok.Add(new Kerdesek(sor));
@@ -199,8 +184,6 @@ namespace QuizGame
                 int randomszam = random.Next(0, temahoz_szavak.Count());//ezt még át kell nézni
                 int gombokhelye_switch = random_gombok_helye.Next(1, 4);
                 //int gombokhelye_switch = 1;
-
-    
 
                 switch (gombokhelye_switch)
                 {
@@ -223,12 +206,11 @@ namespace QuizGame
                         break;
                 }
                 //Kerdesek selectedQuestion = temahoz_szavak[ra];
-
-                ido_label.Content = "Ido: " + temahoz_szavak[randomszam].ido;
+                ido_label.Content = "Idő: " + temahoz_szavak[randomszam].ido;
+                ido = Convert.ToInt32(temahoz_szavak[randomszam].ido);
                 kerdesekszama.Content = Convert.ToString(current_kerdesek + "/" + all_keredesek);
                 kerdes_txt.Text = temahoz_szavak[randomszam].kerdes;
                 valasz_elsoeleme.Content = temahoz_szavak[randomszam].helyesvalasz;
-                //valasz_elsoeleme.Margin = new Thickness(320, 39, -500, -100);
                 valasz_masodikeleme.Content = temahoz_szavak[randomszam].valasz2;
                 valasz_harmadikeleme.Content = temahoz_szavak[randomszam].valasz3;
             }
@@ -241,21 +223,20 @@ namespace QuizGame
             valasz_harmadikeleme.Background = Brushes.White;
         }
         private int teszt = 0;
-       // private int visszaszamol = 3;
+        private int visszaszamol = 5;
         private void TimerTick(object sender, EventArgs e)
         {
-            //kerdes_kozti_ido.Visibility = Visibility.Visible;
-            //kerdes_kozti_ido.Content = visszaszamol.ToString();
             teszt++;
-            //visszaszamol--;
+            visszaszamol--;
+            kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
             if (teszt == 5) 
             { 
                 timer.Stop();
-                //MessageBox.Show(teszt.ToString());
                 teszt = 0;
-                //visszaszamol = 3;
+                visszaszamol = 5;
                 ido_vege = true;
-                //kerdes_kozti_ido.Visibility = Visibility.Hidden;
+                gomb_ido = true;
+                kerdes_kozti_ido.Visibility = Visibility.Hidden;
                 kerdesek_betolt();
             }
 
