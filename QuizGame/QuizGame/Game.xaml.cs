@@ -26,7 +26,7 @@ namespace QuizGame
         public string helyesvalasz { get; set; }
         public string valasz2 { get; set; }
         public string valasz3 { get; set; }
-        public string ido { get; set; }
+        public int ido { get; set; }
         public string tema { get; set; }
         //0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Liszt Ferenc; Frederick Chopin;20;zene
         //0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Alma;Pite;20;zene
@@ -38,7 +38,7 @@ namespace QuizGame
             helyesvalasz = adatok[2];
             valasz2 = adatok[3];
             valasz3 = adatok[4];
-            ido = adatok[5];
+            ido = Convert.ToInt32(adatok[5]);
             tema = adatok[6];
         }
     }
@@ -54,12 +54,18 @@ namespace QuizGame
         public static bool ido_vege = true;
         public static bool gomb_ido = true;
         DispatcherTimer timer = new DispatcherTimer();
+        DispatcherTimer kerdesek_valaszideje_timer = new DispatcherTimer();
+        private int teszt = 0;
+        private int visszaszamol = 5;
+        
         public Game()
         {
             InitializeComponent();
             //42-es és a 23-as sor nincs
             kerdes_kozti_ido.Visibility = Visibility.Hidden;//ezt majd ki kell törölni
             vissza.Background = Brushes.White;
+            progressbar_kiiras.BorderBrush = Brushes.Black;
+            progressbar_kiiras.Foreground = Brushes.Green;
             List<Kerdesek> osszkerdes = new List<Kerdesek>();
             foreach (string sor in File.ReadAllLines("asd.txt"))
             {
@@ -85,11 +91,11 @@ namespace QuizGame
         {
             NavigationService.GoBack();
         }
-
         private void helyes_valasz(object sender, RoutedEventArgs e)
         {
             if(gomb_ido)
             {
+                kerdesek_valaszideje_timer.Stop();
                 gomb_ido = false;
                 valasz_elsoeleme.Background = Brushes.Green;
                 valasz_masodikeleme.Background = Brushes.Red;
@@ -103,11 +109,11 @@ namespace QuizGame
             }
             //kerdesek_betolt();
         }
-
         private void rossz1_valasz(object sender, RoutedEventArgs e)
         {
             if(gomb_ido)
             {
+                kerdesek_valaszideje_timer.Stop();
                 gomb_ido = false;
                 valasz_elsoeleme.Background = Brushes.Green;
                 valasz_masodikeleme.Background = Brushes.IndianRed;
@@ -124,6 +130,7 @@ namespace QuizGame
         {
             if(gomb_ido)
             {
+                kerdesek_valaszideje_timer.Stop();
                 gomb_ido = false;
                 valasz_elsoeleme.Background = Brushes.Green;
                 valasz_masodikeleme.Background = Brushes.Red;
@@ -171,6 +178,7 @@ namespace QuizGame
                 gombszinek();
                 current_kerdesek++;
                 ido_vege = false;
+                kerdesek_valaszideje_timer.Tick -= Rendelkezesre_allo_ido;
                 //timer.Tick -= TimerTick;
                 List<Kerdesek> sorok = new List<Kerdesek>();
                 foreach (string sor in File.ReadAllLines("asd.txt"))
@@ -207,8 +215,14 @@ namespace QuizGame
                 }
                 //Kerdesek selectedQuestion = temahoz_szavak[ra];
                 ido_label.Content = "Idő: " + temahoz_szavak[randomszam].ido;
-                ido = Convert.ToInt32(temahoz_szavak[randomszam].ido);
-                kerdesekszama.Content = Convert.ToString(current_kerdesek + "/" + all_keredesek);
+                ido = temahoz_szavak[randomszam].ido;
+                progressbar_kiiras.Value = ido;
+                progressbar_kiiras.Maximum = ido;
+                progressbar_kiiras.Foreground = Brushes.Green;
+                kerdesek_valaszideje_timer.Tick += Rendelkezesre_allo_ido;
+                kerdesek_valaszideje_timer.Interval = TimeSpan.FromSeconds(1);
+                kerdesek_valaszideje_timer.Start();
+                kerdesekszama.Content = Convert.ToString("Kérdések: " + current_kerdesek + "/" + all_keredesek);
                 kerdes_txt.Text = temahoz_szavak[randomszam].kerdes;
                 valasz_elsoeleme.Content = temahoz_szavak[randomszam].helyesvalasz;
                 valasz_masodikeleme.Content = temahoz_szavak[randomszam].valasz2;
@@ -222,8 +236,6 @@ namespace QuizGame
             valasz_masodikeleme.Background = Brushes.White;
             valasz_harmadikeleme.Background = Brushes.White;
         }
-        private int teszt = 0;
-        private int visszaszamol = 5;
         private void TimerTick(object sender, EventArgs e)
         {
             teszt++;
@@ -239,8 +251,27 @@ namespace QuizGame
                 kerdes_kozti_ido.Visibility = Visibility.Hidden;
                 kerdesek_betolt();
             }
-
-            
+        }
+        //private int jelenlegi = 0;
+        private void Rendelkezesre_allo_ido(object sender, EventArgs e)
+        {
+            ido--;
+            progressbar_kiiras.Value--;
+            ido_label.Content = "Idő: " + ido.ToString();
+            if(progressbar_kiiras.Value <= 5)
+            {
+                progressbar_kiiras.Foreground = Brushes.Red;
+            }
+            if (ido == 0)
+            {
+                kerdesek_valaszideje_timer.Stop();
+                teszt = 0;
+                visszaszamol = 5;
+                ido_vege = true;
+                gomb_ido = true;
+                kerdes_kozti_ido.Visibility = Visibility.Hidden;
+                kerdesek_betolt();
+            }
         }
 
     }
