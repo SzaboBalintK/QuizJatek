@@ -71,15 +71,10 @@ namespace QuizGame
         public void Ready_kiiaratas()
         {
             kerdes_kozti_ido.Visibility = Visibility.Hidden;//ez majd lehet nem kell;
-            vissza.Background = Brushes.White;
             progressbar_kiiras.BorderBrush = Brushes.Black;
             progressbar_kiiras.Foreground = Brushes.Green;
             kerdesekszama.Content = Convert.ToString(current_kerdesek + "/" + all_keredesek);
             ido_label.Content = "Idő: " + ido.ToString();
-        }
-        private void vissza_gomb(object sender, RoutedEventArgs e)
-        {
-            NavigationService.GoBack();
         }
         private void helyes_valasz(object sender, RoutedEventArgs e)
         {
@@ -161,44 +156,55 @@ namespace QuizGame
                 List<Kerdesek> temahoz_szavak = sorok.Where(szo => szo.tema == tema).ToList();
                 Random random = new Random();
                 Random random_gombok_helye = new Random();
-                int randomszam = random.Next(0, temahoz_szavak.Count());//ezt még át kell nézni
+                int randomszam = random.Next(0, temahoz_szavak.Count() + 1);
                 int gombokhelye_switch = random_gombok_helye.Next(1, 4);
                 //int gombokhelye_switch = 1;
-
-                switch (gombokhelye_switch)
+                List<int> volt_szamok = new List<int>();
+                while (volt_szamok.Contains(randomszam))
                 {
-                    case 1://jobb szelen van a jo,
-                        valasz_elsoeleme.Margin = new Thickness(625, 0, -700, 0);
-                        valasz_masodikeleme.Margin = new Thickness(0, 0, 0, 0);
-                        valasz_harmadikeleme.Margin = new Thickness(-700, 0, 625, 0);
-                        break;
-                    case 2://alap ahogyan vannak
-                        valasz_elsoeleme.Margin = new Thickness(20, 0, 0, 0);
-                        valasz_masodikeleme.Margin = new Thickness(0, 0, 0, 0);
-                        valasz_harmadikeleme.Margin = new Thickness(0, 0, 20, 0);
-                        break;
-                    case 3://kozépen van a jo, 
-                        valasz_elsoeleme.Margin = new Thickness(320, 0, -500, 00);
-                        valasz_masodikeleme.Margin = new Thickness(-500, 0, 120, 0);
-                        valasz_harmadikeleme.Margin = new Thickness(0, 0, 20, 0);
-                        break;
-                    default:
-                        break;
+                    randomszam = random.Next(0, temahoz_szavak.Count() + 1);
                 }
-                //Kerdesek selectedQuestion = temahoz_szavak[ra];
-                ido_label.Content = "Idő: " + temahoz_szavak[randomszam].ido;
-                ido = temahoz_szavak[randomszam].ido;
-                progressbar_kiiras.Value = ido;
-                progressbar_kiiras.Maximum = ido;
-                progressbar_kiiras.Foreground = Brushes.Green;
-                kerdesek_valaszideje_timer.Tick += Rendelkezesre_allo_ido;
-                kerdesek_valaszideje_timer.Interval = TimeSpan.FromSeconds(1);
-                kerdesek_valaszideje_timer.Start();
-                kerdesekszama.Content = Convert.ToString("Kérdések: " + current_kerdesek + "/" + all_keredesek);
-                kerdes_txt.Text = temahoz_szavak[randomszam].kerdes;
-                valasz_elsoeleme.Content = temahoz_szavak[randomszam].helyesvalasz;
-                valasz_masodikeleme.Content = temahoz_szavak[randomszam].valasz2;
-                valasz_harmadikeleme.Content = temahoz_szavak[randomszam].valasz3;
+                bool szam_volt_v_sem = volt_szamok.Contains(randomszam);
+                if (szam_volt_v_sem == false)
+                {
+                    volt_szamok.Add(randomszam);
+                    switch (gombokhelye_switch)
+                    {
+                        case 1://jobb szelen van a jo,
+                            valasz_elsoeleme.Margin = new Thickness(625, 0, -700, 0);
+                            valasz_masodikeleme.Margin = new Thickness(0, 0, 0, 0);
+                            valasz_harmadikeleme.Margin = new Thickness(-700, 0, 625, 0);
+                            break;
+                        case 2://alap ahogyan vannak
+                            valasz_elsoeleme.Margin = new Thickness(20, 0, 0, 0);
+                            valasz_masodikeleme.Margin = new Thickness(0, 0, 0, 0);
+                            valasz_harmadikeleme.Margin = new Thickness(0, 0, 20, 0);
+                            break;
+                        case 3://kozépen van a jo, 
+                            valasz_elsoeleme.Margin = new Thickness(320, 0, -500, 00);
+                            valasz_masodikeleme.Margin = new Thickness(-500, 0, 120, 0);
+                            valasz_harmadikeleme.Margin = new Thickness(0, 0, 20, 0);
+                            break;
+                        default:
+                            break;
+                    }
+                    //Kerdesek selectedQuestion = temahoz_szavak[ra];
+                    ido_label.Content = "Idő: " + temahoz_szavak[randomszam].ido;
+                    ido = temahoz_szavak[randomszam].ido;
+                    progressbar_kiiras.Value = ido;
+                    progressbar_kiiras.Maximum = ido;
+                    progressbar_kiiras.Foreground = Brushes.Green;
+                    kerdesek_valaszideje_timer.Tick += Rendelkezesre_allo_ido;
+                    kerdesek_valaszideje_timer.Interval = TimeSpan.FromSeconds(1);
+                    kerdesek_valaszideje_timer.Start();
+                    kerdesekszama.Content = Convert.ToString("Kérdések: " + current_kerdesek + "/" + all_keredesek);
+                    kerdes_txt.Text = temahoz_szavak[randomszam].kerdes;
+                    valasz_elsoeleme.Content = temahoz_szavak[randomszam].helyesvalasz;
+                    valasz_masodikeleme.Content = temahoz_szavak[randomszam].valasz2;
+                    valasz_harmadikeleme.Content = temahoz_szavak[randomszam].valasz3;
+                }
+
+                
             }
         }
         private void gombszinek()
@@ -243,5 +249,6 @@ namespace QuizGame
                 kerdesek_betolt();
             }
         }
+
     }
 }
