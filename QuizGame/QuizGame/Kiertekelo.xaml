@@ -6,9 +6,19 @@
       xmlns:local="clr-namespace:QuizGame"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Kiertekelo">
+      Title="Kiertekelo" Background="MediumPurple">
 
     <Grid>
-        
+        <Label Content="Összegzés" HorizontalAlignment="Left" Margin="332,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="41" Width="113" FontSize="20" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.391"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
     </Grid>
 </Page>

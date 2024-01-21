@@ -75,3 +75,5 @@ C:\Users\nemeth.csongor_csany\Documents\GitHub\QuizJatek\QuizGame\QuizGame\obj\D
 C:\Users\nemeth.csongor_csany\Documents\GitHub\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
 C:\Users\nemeth.csongor_csany\Documents\GitHub\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.exe
 C:\Users\nemeth.csongor_csany\Documents\GitHub\QuizJatek\QuizGame\QuizGame\obj\Debug\QuizGame.pdb
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.g.cs
+C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.baml

@@ -44,12 +44,9 @@ namespace QuizGame
     }
     public partial class Game : Page
     {
-        public static bool win;
-        //public static bool megy = true;
         public static int ido = 0;
         public static int current_kerdesek = 0;
         public static int all_keredesek = Fomenu.korokszama;
-        public static int olvasasi_ido = 0;
         public static int jo_valaszok_szama = 0;
         public static bool ido_vege = true;
         public static bool gomb_ido = true;
@@ -62,31 +59,24 @@ namespace QuizGame
         {
             InitializeComponent();
             //42-es és a 23-as sor nincs
-            kerdes_kozti_ido.Visibility = Visibility.Hidden;//ezt majd ki kell törölni
-            vissza.Background = Brushes.White;
-            progressbar_kiiras.BorderBrush = Brushes.Black;
-            progressbar_kiiras.Foreground = Brushes.Green;
             List<Kerdesek> osszkerdes = new List<Kerdesek>();
             foreach (string sor in File.ReadAllLines("asd.txt"))
             {
                 osszkerdes.Add(new Kerdesek(sor));
             }
-            //Random rnd = new Random();
-            //int randomid = rnd.Next(0, 0);
-
-            /*kerdes_txt.Text = osszkerdes[0].kerdes;
-            valasz_elsoeleme.Content = osszkerdes[0].helyesvalasz;
-            valasz_masodikeleme.Content = osszkerdes[0].valasz2;
-            valasz_harmadikeleme.Content = osszkerdes[0].valasz3;*/
+            Ready_kiiaratas();
+            timer.Interval = TimeSpan.FromSeconds(1);
+            kerdesek_betolt();
+        }
+        public void Ready_kiiaratas()
+        {
+            kerdes_kozti_ido.Visibility = Visibility.Hidden;//ez majd lehet nem kell;
+            vissza.Background = Brushes.White;
+            progressbar_kiiras.BorderBrush = Brushes.Black;
+            progressbar_kiiras.Foreground = Brushes.Green;
             kerdesekszama.Content = Convert.ToString(current_kerdesek + "/" + all_keredesek);
             ido_label.Content = "Idő: " + ido.ToString();
-            timer.Interval = TimeSpan.FromSeconds(1);
-            //valasz_harmadikeleme.Visibility = Visibility.Hidden;
-            kerdesek_betolt();
-
-
         }
-
         private void vissza_gomb(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
@@ -102,7 +92,7 @@ namespace QuizGame
                 valasz_harmadikeleme.Background = Brushes.Red;
                 jo_valaszok_szama++;
                 timer.Tick += TimerTick;
-                timer.Interval = TimeSpan.FromSeconds(1);
+                //timer.Interval = TimeSpan.FromSeconds(1);
                 kerdes_kozti_ido.Visibility = Visibility.Visible;
                 kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
                 timer.Start();
@@ -119,7 +109,7 @@ namespace QuizGame
                 valasz_masodikeleme.Background = Brushes.IndianRed;
                 valasz_harmadikeleme.Background = Brushes.Red;
                 timer.Tick += TimerTick;
-                timer.Interval = TimeSpan.FromSeconds(1);
+                //timer.Interval = TimeSpan.FromSeconds(1);
                 kerdes_kozti_ido.Visibility = Visibility.Visible;
                 kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
                 timer.Start();
@@ -136,42 +126,24 @@ namespace QuizGame
                 valasz_masodikeleme.Background = Brushes.Red;
                 valasz_harmadikeleme.Background = Brushes.IndianRed;
                 timer.Tick += TimerTick;
-                timer.Interval = TimeSpan.FromSeconds(1);
+                //timer.Interval = TimeSpan.FromSeconds(1);
                 kerdes_kozti_ido.Visibility = Visibility.Visible;
                 kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
                 timer.Start();
             }
             //kerdesek_betolt()
         }
-        private void gomblathatosag(bool idk)
-        {
-            if (idk == false)
-            {
-                MessageBox.Show("Vége!");
-                valasz_elsoeleme.IsEnabled = false;
-                valasz_masodikeleme.IsEnabled = false;
-                valasz_harmadikeleme.IsEnabled = false;
-            }
-        }
-        private bool gyoztelvnem(int nyert)
-        {
-            //megy = false;
-            if (nyert == 1)
-            {
-                return win = true;
-            }
-            else
-            {
-                return win = false;
-            }
-        }
-
         private void kerdesek_betolt()
         {
             if(current_kerdesek == all_keredesek)
             {
-                MessageBox.Show(current_kerdesek.ToString());
-                //ide jon majd az uj kiertekelos page;
+                timer.Tick += TimerTick;
+                timer.Interval = TimeSpan.FromSeconds(1);
+                kerdes_kozti_ido.Visibility = Visibility.Visible;
+                kerdes_kozti_ido.Content = "Kiértékelés: " + visszaszamol.ToString();
+                timer.Start();
+                //MessageBox.Show(current_kerdesek.ToString());
+                NavigationService.Navigate(new Kiertekelo());//kiertekelos page;
             }
             if(ido_vege == true && current_kerdesek != all_keredesek)
             {
@@ -179,7 +151,7 @@ namespace QuizGame
                 current_kerdesek++;
                 ido_vege = false;
                 kerdesek_valaszideje_timer.Tick -= Rendelkezesre_allo_ido;
-                //timer.Tick -= TimerTick;
+                timer.Tick -= TimerTick;
                 List<Kerdesek> sorok = new List<Kerdesek>();
                 foreach (string sor in File.ReadAllLines("asd.txt"))
                     sorok.Add(new Kerdesek(sor));
@@ -229,7 +201,6 @@ namespace QuizGame
                 valasz_harmadikeleme.Content = temahoz_szavak[randomszam].valasz3;
             }
         }
-           
         private void gombszinek()
         {
             valasz_elsoeleme.Background = Brushes.White;
@@ -252,7 +223,6 @@ namespace QuizGame
                 kerdesek_betolt();
             }
         }
-        //private int jelenlegi = 0;
         private void Rendelkezesre_allo_ido(object sender, EventArgs e)
         {
             ido--;
@@ -273,6 +243,5 @@ namespace QuizGame
                 kerdesek_betolt();
             }
         }
-
     }
 }
