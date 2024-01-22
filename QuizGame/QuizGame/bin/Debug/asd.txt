@@ -6,7 +6,7 @@
 5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a Diótörő zenéjét?;P. I. Tchaikovsky;F. Chopin;S. Shostakovich;18;zene
 6;Mi a kifejezés egy olyan zenemű számára, amelyben a hangok emelkednek majd csökkennek?;kupolás;szimmetrikus;ódivatú;25;zene
 7;Ki komponálta a híres Holdfény szonátát zongorára?;Ludwig van Beethoven;W. A. Mozart;F. Chopin;10;zene
-8;Mely korszakban virágzott Johann Sebastian Bach, George Frideric Handel és Antonio Vivaldi?;Barokk;Rokokó;Gótiku;22;zene
+8;Mely korszakban virágzott Johann Sebastian Bach, George Frideric Handel és Antonio Vivaldi?;Barokk;Rokokó;Gótikus;22;zene
 9;Mi a zenei kifejezés a hangerő fokozatos növekedéséhez?;crescendo;decrescendo;ritmuoso;16;zene
 10;Ki számít a "szimfónia atyjának" és a "vonósnégyes atyjának"?;Franz Joseph Haydn;J. Bach; L. Beethoven;26;zene
 11;Mi a kifejezés egy három vokális részre írt kompozícióhoz?;Trio Sonata;Duo Sonata; Solo Sonata;13;zene
@@ -138,3 +138,23 @@
 137;Mi volt a neve a görög mitológiában az óriások vezérének, aki az istenekkel szembeszállt?;Alkyoneusz;Echidna;Polybotes;22;mitologia
 138;Melyik isten volt a szerelem, szépség, és zenének a görög mitológiában?;Aphrodité;Démétér;Héra;20;mitologia
 139;Mi volt a neve a görög mitológiában az alvilág folyójának, amelyen Charon vitorlázott?;Styx;Acheron;Lethe;18;mitologia
+140;Melyik állat tartja a világ legnagyobb termetű emlősének címét?;Elefánt;Giraff;Kék bálna;22;allatok
+141;Milyen állat a narvál?;Tengeri emlős;Rovar;Tengeri sügér;18;allatok
+142;Hány lába van egy póknak?;4;6;8;15;allatok
+143;Melyik állat a világ legnagyobb ragadozója?;Tigris;Leopárd;Polarmedve;22;allatok
+144;Melyik állat híres a szédítő ugrásaival, és egyik lábára állva táplálkozik?;Kanguru;Zsiráf;Koala;18;allatok
+145;Melyik kétéltű az egyetlen olyan, amelynek nincs hátgerince?;Varangy;Béka;Salamon;20;allatok
+146;Mi a neve a világ legnagyobb repülő madarának?;Kondor;Sólyom;Strucc;22;allatok
+147;Melyik állatot hívják "denevérek éjszakai sólymainak"?;Bagoly;Pisztráng;Denevér;18;allatok
+148;Melyik ragadozó madár a leggyorsabb szárnyasan a világon?;Királyréce;Peregrine sólyom;Sas;20;allatok
+149;Melyik kétéltűt nevezik "szalamandra" néven?;Béka;Varangy;Salamon;22;allatok
+150;Mi a világ legnagyobb teknőse faja?;Tengeri teknős;Koponyás teknős;Galápagoszi teknős;18;allatok
+151;Melyik állatot tartják a világ legintelligensebb emlősének?;Delfin;Csimpánz;Okádó bálna;20;allatok
+152;Melyik madár híres a színes, ragyogó tollazatáról és a táncos párbajáról?;Páva;Fácán;Pingvin;22;allatok
+153;Hány lába van egy garnélának?;4;6;8;10;allatok
+154;Melyik állatot nevezik a sivatag "királyának"?;Tigrisszalamandra;Lézengő oroszlán;Sivatagi róka;18;allatok
+155;Melyik madár híres a hosszú, görbe csőrével és élénk színű tollazatával?;Kakadu;Pelikán;Tukán;20;allatok
+156;Melyik emlős az egyetlen, amely repülőképes?;Róka;Denevér;Sólyom;22;allatok
+157;Melyik állat a leghosszabb élő kétéltű a világon?;Varangy;Szalamandra;Béka;18;allatok
+158;Melyik a világ legnagyobb termetű szárazföldi emlőse?;Elefánt;Zsiráf;Koala;20;allatok
+159;Mi a neve annak a hüllőnek, amely az egyetlen élő szárnyas hüllő a világon?;Sárkány;Sárkánygyík;Drákó;22;allatok
