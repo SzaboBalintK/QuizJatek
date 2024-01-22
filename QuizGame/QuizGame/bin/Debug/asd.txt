@@ -21,7 +21,6 @@
 20;Mi a kifejezés egy hangsúlyos leütésnek?;Marcato;Moderato;Tenuto;23;zene
 21;Ki az olasz zeneszerző, akit operái, mint a Traviata és a Rigoletto tettek híressé?;Giuseppe Verdi;Bartolomeo Diaz;Tyborg;10;zene
 22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
-23;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene
 24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;20;zene
 24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;69;20;zene
 25;Ki a görög mitológiában az istenek királya?;Zeus;Atlas;Hercules;10;mitologia
@@ -41,7 +40,6 @@
 39;Ki a tréfamester isten a norvég mitológiában?;Loki;Thor;Odin;14;mitologia
 40;Melyik istennő társul a szerelemhez és a szépséghez a norvég mitológiában?;Frigg;Freya;Hödr;20;mitologia
 41;Melyik lény jelzi a Ragnarok eljövetelét a norvég mitológiában?;Fenrir;Cerberus;Ragnarok;11;mitologia
-42;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;Hodr;Hermod;19;mitologia
 43;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;Hodr;Hermod;19;mitologia
 44;Mi Odin hollóinak a neve a norvég mitológiában?(Vesszővel elválasztva!);Huginn & Muninn;Hughie & Michael;Harald & Björn;26;mitologia
 45;Ki az alvilág istene az egyiptomi mitológiában?;Anubis;Bastet;Geb;10;mitologia
@@ -102,3 +100,41 @@
 100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;Albert;Kancsi;29;zene
 101;Melyik görög mitológiai hős nevét viseli a hónapok közül egy?;Janus;Julius;Augustus;14;mitologia
 102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;Márk visszatér;Bálna;22;allatok
+103;Mi a jelentése a 'legato' zenei kifejezésnek?;Szaggatott;Folyamatos;Ritmikus;18;zene
+104;Melyik hangszer a legalsó, legnagyobb hangú a következők közül?;Klarinét;Fagott;Tuba;27;zene
+105;Mi a neve annak a jelenségnek, amikor a zenész hirtelen halkul, majd erősödik a hangja?;Crescendo;Staccato;Decrescendo;27;zene
+106;Melyik zenei kifejezés jelzi a 'pattogós' hangütést?;Staccato;Concerto;Marcato;27;zene
+107;Mi a jelentése a 'fortissimo' dinamika jelölésnek?;Hangos;Halk;Közepesen hangos;22;zene
+108;Melyik hangmagasság a legmélyebb a következők közül?;Soprán;Alt;Tenor;27;zene
+109;Mi a neve annak a hangszernek, amelyet gyakran használnak a jazz zenekarokban, és a fémes hangja miatt kitűnik?;Trombita;Szaxofon;Klarinét;27;zene
+110;Milyen jelzést használnak a zenekari karmesterek a gyors játéktempóra?;Allegro;Andante;Adagio;27;zene
+111;Mi a neve annak a résznek a zongorán, ahol a hangszert megnyomva hangok szólnak?;Billentyűzet;Húr;Lap;20;zene
+112;Melyik korszakban élt Ludwig van Beethoven?;Barokk;Klasszikus;Romantikus;27;zene
+113;Mi a neve annak a fúvóshangszernek, amely hosszú csőből áll, és a zenész a cső végére fújja a levegőt?;Klarinét;Oboa;Fagott;22;zene
+114;Mi a neve a zongoraszólamokhoz írt rövid, virtuóz daraboknak?;Sonáta;Etűd;Szimfónia;27;zene
+115;Melyik zenei kifejezés jelzi a hirtelen hangosodást?;Crescendo;Fortissimo;Decrescendo;18;zene
+116;Mi a neve annak a vonós hangszernek, amelyet az állon helyeznek, és így játszanak rajta?;Cselló;Brácsa;Hegedű;27;zene
+117;Mi a neve annak a karmesteri jelölésnek, amikor a zenésznek hirtelen, hangsúlyosan kell megszólaltatnia egy hangot?;Staccato;Accent;Legato;27;zene
+118;Melyik zenei műfaj jellemző a szimfonikus költeményekre, tragédiai vagy drámai hangulatú zenére?;Szimfónia;Opera;Balett;27;zene
+119;Melyik zenei kifejezés jelzi a lassú és mély játékstílust?;Andante;Adagio;Allegro;18;zene
+120;Mi a neve annak a zenekari hangszernek, amely a ritmust és ütést adja a zenekarnak?;Cseleszta;Dob;Harmonika;27;zene
+120;Ki volt a görög mitológia főistenasszonya?;Héra;Athena;Afrodité;18;mitologia
+121;Melyik görög isten volt az ég és a villámok istene?;Zeusz;Poszeidón;Hádész;22;mitologia
+122;Mi volt Odüsszeusz hűséges kutyájának neve?;Argos;Fido;Rex;20;mitologia
+123;Melyik isten volt a szerelem és a szépség istennője a görög mitológiában?;Afrodité;Héra;Deméter;18;mitologia
+124;Melyik mesebeli szörny volt a Minotaurusz anyja?;Pasziphaé;Medúza;Ekhidna;20;mitologia
+125;Mi volt Ikarosz apjának neve, aki viaszsárkányával repült a nap felé?;Daidalosz;Perseusz;Théseusz;22;mitologia
+126;Ki volt a görög mitológia legbölcsebb lénye, aki különböző alakokban jelenhetett meg?;Tükrök Királynője;Triton;Proteusz;20;mitologia
+127;Melyik istennő volt a vadászat és a vadállatok istennője a görög mitológiában?;Artemisz;Aphrodité;Héra;18;mitologia
+128;Melyik mitológiai alak volt félig ló, félig ember?;Minotaurusz;Szent György;Centaur;22;mitologia
+129;Mi volt a neve a görög mitológiában a földalatti világ istenének?;Hádész;Zeusz;Poszeidón;20;mitologia
+130;Ki volt a görög mitológia hősze, a trojai háború híres harcosa?;Akhilleusz;Hektor;Odiszeusz;18;mitologia
+131;Melyik isten számított az olimpiai istenek legifjabbjának a görög mitológiában?;Dionüszosz;Hermész;Apollón;22;mitologia
+132;Melyik istennő volt a háború és a stratégia istennője a görög mitológiában?;Athena;Artemisz;Aphrodité;20;mitologia
+133;Melyik szörny volt a három testű kutya, akit Hádész az alvilág kapujánál tartott?;Kerberosz;Orthros;Chiméra;18;mitologia
+134;Mi volt a neve a görög mitológiában az istenek italának, amely örök életet adott?;Ambroszia;Nektár;Édenszörny;22;mitologia
+135;Ki volt a görög mitológia szelek istene?;Boreas;Zefír;Északi Szél;20;mitologia
+136;Melyik görög hősnek volt két híres szeme, amelyeket egy dobozban őrzött?;Argus;Küklopsz;Górgó;18;mitologia
+137;Mi volt a neve a görög mitológiában az óriások vezérének, aki az istenekkel szembeszállt?;Alkyoneusz;Echidna;Polybotes;22;mitologia
+138;Melyik isten volt a szerelem, szépség, és zenének a görög mitológiában?;Aphrodité;Démétér;Héra;20;mitologia
+139;Mi volt a neve a görög mitológiában az alvilág folyójának, amelyen Charon vitorlázott?;Styx;Acheron;Lethe;18;mitologia
