@@ -25,48 +25,12 @@ namespace QuizGame
         {
             InitializeComponent();
             hibauzenet.Visibility = Visibility.Hidden;
-            jatekos_nev.Text = "a";
+            jatekos_nev.Text = "a"; //itt csak a tesztek miatt van itt
             allatok.Visibility = Visibility.Hidden;
             zene.Visibility = Visibility.Hidden;
             mitosz.Visibility = Visibility.Hidden;
             kerdesek_label.Content = "Játékos Neve:";
         }
-
-        /*private void next_btn(object sender, RoutedEventArgs e)
-        {
-            nev = jatekos_nev.Text;
-            if(String.IsNullOrWhiteSpace(nev) != true && nev.Contains(";") != true && String.IsNullOrWhiteSpace(temanev) == false && korokszama >= 10)
-            {
-            NavigationService.Navigate(new Game());
-            }
-            if (String.IsNullOrWhiteSpace(temanev) && String.IsNullOrWhiteSpace(nev))
-            {
-                hibauzenet.Visibility = Visibility.Visible;
-                hibauzenet.Content = "Nincs téma kiválasztva!\nNincs f.név megadva!";
-            }
-            else if (String.IsNullOrWhiteSpace(nev))
-            {
-                hibauzenet.Visibility = Visibility.Visible;
-                hibauzenet.Content = "Adj meg betűket f.névhez!";
-            }
-            else if (String.IsNullOrWhiteSpace(temanev))
-            {
-                hibauzenet.Visibility = Visibility.Visible;
-                hibauzenet.Content = "Nincs téma kiválasztva!";
-            }
-            if (nev.Contains(";"))
-            {
-                hibauzenet.Visibility = Visibility.Visible;
-                hibauzenet.Content = "Nem lehet benne ilyen karakter! (';')";
-            }
-            if(korokszama <= 10)
-            {
-                hibauzenet.Visibility = Visibility.Visible;
-                hibauzenet.Content = "Válassz egy számot!";
-            }*/
-
-
-
 
         private void mitosz_click(object sender, RoutedEventArgs e)
         {
@@ -80,7 +44,6 @@ namespace QuizGame
                 korokszama = 10;
                 eltunnek();
             }
-
         }
 
         private void zene_click(object sender, RoutedEventArgs e)
@@ -121,12 +84,7 @@ namespace QuizGame
         }
         private void eltunnek()
         {
-            //mitosz.Visibility = Visibility.Hidden;
-            //zene.Visibility = Visibility.Hidden;
-            //allatok.Visibility = Visibility.Hidden;
-            //kerdesek_label.Content = "Sok szerencsét!";
             NavigationService.Navigate(new Game());
-
         }
 
         private void nev_tovabblepes(object sender, RoutedEventArgs e)
@@ -134,12 +92,12 @@ namespace QuizGame
             nev = jatekos_nev.Text;
             if (String.IsNullOrWhiteSpace(nev) != true && nev.Contains(";") != true)
             {
-                hibauzenet.Visibility = Visibility.Hidden;
                 allatok.Visibility = Visibility.Visible;
                 zene.Visibility = Visibility.Visible;
                 mitosz.Visibility = Visibility.Visible;
                 nev_tovabb.Visibility = Visibility.Hidden;
                 jatekos_nev.Visibility = Visibility.Hidden;
+                hibauzenet.Visibility = Visibility.Hidden;
                 kerdesek_label.Content = "Témakör Választás:";
             }
             else if (String.IsNullOrWhiteSpace(nev))
