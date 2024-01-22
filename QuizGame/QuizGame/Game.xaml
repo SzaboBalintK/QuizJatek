@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Game" Background="Bisque">
     <Viewbox Stretch="Uniform">
-         <Grid>
+        <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="2*"/>
@@ -19,10 +19,10 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="2.5*"/>
                 </Grid.ColumnDefinitions>
-                <Label x:Name="kerdesekszama" Grid.Column="1" Content="0/0" HorizontalAlignment="Left" Margin="453,20,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="ido_label" Grid.Column="1" HorizontalAlignment="Left" Margin="48,20,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="kerdes_kozti_ido" HorizontalAlignment="Left" Margin="65,0,0,0" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="30" Width="164"/>
-                <ProgressBar x:Name="progressbar_kiiras" Grid.Column="1" HorizontalAlignment="Left" Height="10" Margin="135,20,0,0" VerticalAlignment="Top" Width="100"/>
+                <Label x:Name="kerdesekszama" Grid.Column="1" Content="0/0" HorizontalAlignment="Left" Margin="529,0,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,0.226" FontWeight="Bold" FontSize="14"/>
+                <Label x:Name="ido_label" Content="Idő: 0" Grid.Column="1" HorizontalAlignment="Left" Margin="135,4,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+                <Label x:Name="kerdes_kozti_ido" HorizontalAlignment="Left" Margin="10,-1,0,0" VerticalAlignment="Top" Height="30" Width="196" FontSize="14" FontWeight="Bold"/>
+                <ProgressBar x:Name="progressbar_kiiras" Grid.Column="1" HorizontalAlignment="Left" Height="10" Margin="196,14,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.164,0.48"/>
             </Grid>
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
@@ -36,5 +36,5 @@
             <Button x:Name="valasz_masodikeleme" Content="Button" HorizontalAlignment="Center" Margin="0,42,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.478,-1.445" Height="35" Width="119" Click="rossz1_valasz"/>
             <Button x:Name="valasz_harmadikeleme" Content="Button" HorizontalAlignment="right" Margin="60,40,0,0" Grid.Row="2" VerticalAlignment="Top" Height="36" Width="143" Click="rossz2_valasz"/>
         </Grid>
-   </Viewbox>
+    </Viewbox>
 </Page>
