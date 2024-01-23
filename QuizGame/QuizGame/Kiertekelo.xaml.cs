@@ -36,7 +36,7 @@ namespace QuizGame
         {
             InitializeComponent();
             elert_pontszam.Content = "Elért pontszám: " + Game.jo_valaszok_szama.ToString();
-            jatekosok_mentese_sajat(Fomenu.nev, Game.jo_valaszok_szama, Game.jo_valaszok_szama);
+            //jatekosok_mentese_sajat(Fomenu.nev, Game.jo_valaszok_szama, Game.jo_valaszok_szama);
         }
         public void jatekosok_mentese_sajat(string jatekosneve, int a, int b)
         {
@@ -49,7 +49,7 @@ namespace QuizGame
                 eredmenyeksima.Add(sor);
 
             }
-            var felhasznalo = eredmenyek.Find(x => x.nev == jatekosneve);
+            /*var felhasznalo = eredmenyek.Find(x => x.nev == jatekosneve);
             var felhasznalo1 = eredmenyek.FindIndex(x => x.nev == jatekosneve);
             if (felhasznalo != null)
             {
@@ -58,7 +58,7 @@ namespace QuizGame
             else
             {
                 eredmenyeksima.Add($"{jatekosneve};{a};{b}");
-            }
+            }*/
             if (logika != null)
             {
                 if (logika.legjobbpontszam >= b)
@@ -68,7 +68,11 @@ namespace QuizGame
                     eredmenyeksima.Add($"{jatekosneve};{a};{b}");
                 }
             }
-            File.WriteAllLines("jatekosok.txt", eredmenyeksima);
+            else
+            {
+                eredmenyeksima.Add($"{jatekosneve};{a};{b}");
+            }
+            File.WriteAllLines("mentes.txt", eredmenyeksima);
         }
     }
 }

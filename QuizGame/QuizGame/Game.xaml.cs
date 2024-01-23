@@ -122,13 +122,16 @@ namespace QuizGame
         }
         private void kerdesek_betolt()
         {
+
             if(current_kerdesek == all_keredesek)
             {
+                MessageBox.Show("itt még jó");
                 timer.Tick += TimerTick;
                 timer.Interval = TimeSpan.FromSeconds(1);
                 kerdes_kozti_ido.Visibility = Visibility.Visible;
                 kerdes_kozti_ido.Content = "Kiértékelés: " + visszaszamol.ToString();
                 timer.Start();
+                MessageBox.Show("uccso");
                 NavigationService.Navigate(new Kiertekelo());
             }
             if(ido_vege == true && current_kerdesek != all_keredesek)
