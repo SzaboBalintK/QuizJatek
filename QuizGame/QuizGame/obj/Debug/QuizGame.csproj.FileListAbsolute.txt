@@ -79,3 +79,5 @@ C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj
 C:\Users\Fatér László\Documents\Visual Studio\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.baml
 C:\Users\fater.laszlo_csany-z\Desktop\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.g.cs
 C:\Users\fater.laszlo_csany-z\Desktop\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.baml
+C:\Users\nemeth.csongor_csany\Documents\GitHub\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.g.cs
+C:\Users\nemeth.csongor_csany\Documents\GitHub\QuizJatek\QuizGame\QuizGame\obj\Debug\Kiertekelo.baml

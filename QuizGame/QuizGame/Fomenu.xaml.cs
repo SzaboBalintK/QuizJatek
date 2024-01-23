@@ -41,7 +41,7 @@ namespace QuizGame
             }
             else
             {
-                korokszama = 10;
+                korokszama = 1;
                 eltunnek();
             }
         }
@@ -55,7 +55,7 @@ namespace QuizGame
             }
             else
             {
-                korokszama = 15;
+                korokszama = 10;
                 eltunnek();
             }
         }
