@@ -35,43 +35,48 @@ namespace QuizGame
         public Kiertekelo()
         {
             InitializeComponent();
+            
             elert_pontszam.Content = "Elért pontszám: " + Game.jo_valaszok_szama.ToString();
-            //jatekosok_mentese_sajat(Fomenu.nev, Game.jo_valaszok_szama, Game.jo_valaszok_szama);
+            jatekosok_mentese_sajat(Fomenu.nev, Game.jo_valaszok_szama, Game.jo_valaszok_szama);
         }
         public void jatekosok_mentese_sajat(string jatekosneve, int a, int b)
         {
             List<Jatekos_sajat> eredmenyek = new List<Jatekos_sajat>();
             List<string> eredmenyeksima = new List<string>();
-            var logika = (eredmenyek.Where(n => n.nev == jatekosneve).First());
+           
             foreach (string sor in File.ReadAllLines("mentes.txt"))
             {
                 eredmenyek.Add(new Jatekos_sajat(sor));
                 eredmenyeksima.Add(sor);
 
             }
+            var logika_bool = (eredmenyek.Any(n => n.nev == jatekosneve));
+            
+
+
+
+            //MessageBox.Show(logika.ToString());
             /*var felhasznalo = eredmenyek.Find(x => x.nev == jatekosneve);
-            var felhasznalo1 = eredmenyek.FindIndex(x => x.nev == jatekosneve);
-            if (felhasznalo != null)
-            {
-                eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{b}");
-            }
-            else
-            {
-                eredmenyeksima.Add($"{jatekosneve};{a};{b}");
-            }*/
-            if (logika != null)
-            {
-                if (logika.legjobbpontszam >= b)
-                { eredmenyeksima.Add($"{jatekosneve};{a};{logika.legjobbpontszam}"); }
+            var felhasznalo1 = eredmenyek.FindIndex(x => x.nev == jatekosneve);*/
+            //MessageBox.Show("idáig elértem");
+            if (logika_bool)
+            {   var logika = (eredmenyek.Where(n => n.nev == jatekosneve).First());
+                var felhasznalo1 = eredmenyek.FindIndex(x => x.nev == jatekosneve);
+                if(logika.legjobbpontszam >= b)
+                {
+                    eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{logika.legjobbpontszam}");
+                }
                 else
                 {
-                    eredmenyeksima.Add($"{jatekosneve};{a};{b}");
+                    eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{b}");
                 }
+                
             }
             else
             {
                 eredmenyeksima.Add($"{jatekosneve};{a};{b}");
             }
+
             File.WriteAllLines("mentes.txt", eredmenyeksima);
         }
     }
