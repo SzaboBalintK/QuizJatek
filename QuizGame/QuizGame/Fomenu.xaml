@@ -26,13 +26,15 @@
             </Grid.RowDefinitions>
 
             <Label x:Name="program_label" Grid.Column="1" Grid.Row="0" Content="Quiz Játék" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="25"/>
-            <TextBox x:Name="jatekos_nev" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Margin="7,52,10,0" Height="16" Grid.Column="1"/>
+            <TextBox x:Name="jatekos_nev" MaxLength="20" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Margin="7,52,10,0" Height="16" Grid.Column="1" UndoLimit="100"/>
             <Label x:Name="kerdesek_label" Grid.Column="1" Content="kérdés" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="10" FontWeight="UltraBold" Background="LightSlateGray" Margin="5"/>
-            <Button x:Name="mitosz" Grid.Column="0" Grid.Row="1" Content="Mitológia" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="10" Background="LightSlateGray" FontWeight="Bold" FontSize="10" Click="mitosz_click"  Margin="10,87,0,0" Width="95" Grid.RowSpan="2"/>
+            <Button x:Name="mitosz" Grid.Column="0" Grid.Row="1" Content="Mitológia" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="10" Background="LightSlateGray" FontWeight="Bold" FontSize="10" Click="mitosz_click"  Margin="10,87,0,0" Width="95" Height="35" Grid.RowSpan="2"/>
             <Button x:Name="zene" Grid.Column="1" Grid.Row="1" Content="Zene" HorizontalAlignment="Center" VerticalAlignment="Top" Padding="10" Background="LightSlateGray" FontWeight="Bold" FontSize="10" Click="zene_click" Width="95" Height="35" Margin="0,87,0,0" Grid.RowSpan="2"/>
             <Button x:Name="allatok" Grid.Column="2" Grid.Row="2" Content="Állatok" HorizontalAlignment="Left" VerticalAlignment="Bottom" Padding="10" Background="LightSlateGray" FontWeight="Bold" FontSize="10" Click="allatok_click" Height="35" Width="114" Margin="10,0,0,22"/>
             <Label x:Name="hibauzenet" Content="Ide lesz majd hibauzenet, ha van" HorizontalAlignment="Left" Width="270" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="63" FontSize="8"/>
             <Button x:Name="nev_tovabb" Grid.Column="1" Content="-->" Grid.ColumnSpan="2" HorizontalAlignment="Left" Grid.Row="1" FontSize="10" Click="nev_tovabblepes" FontWeight="Bold"  Width="29" RenderTransformOrigin="0.567,-0.203"  Margin="124,52,0,4" Background="LightSlateGray"/>
+            <Button x:Name="egy_valasz_helyes" Content="Csak 1 helyes" HorizontalAlignment="Left" Margin="10,15,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="10" Background="LightSlateGray" FontWeight="Bold" FontSize="10" Height="35" Width="144" Click="Egy_valasz_click"/>
+            <Button x:Name="tobb_valasz_helyes" Grid.Column="2" Content="2 vagy annál több helyes" HorizontalAlignment="Left" Margin="10,15,0,0" Grid.Row="2" VerticalAlignment="Top" Padding="10" Background="LightSlateGray" FontWeight="Bold" FontSize="10" Height="35" Width="144" Click="tobb_valasz_click"/>
         </Grid>
     </Viewbox>
 </Page>
