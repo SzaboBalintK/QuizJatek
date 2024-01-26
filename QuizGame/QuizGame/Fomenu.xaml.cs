@@ -49,7 +49,6 @@ namespace QuizGame
             {
                 korokszama = 10;
                 eltunnek();
-                //MessageBox.Show(helyesvalaszoktobbvagysem_helyzete.ToString());
             }
         }
 
@@ -60,14 +59,11 @@ namespace QuizGame
             {
                 temanev = "zene";
                 kerdesekszama_kerdes();
-
-
             }
             else
             {
                 korokszama = 15;
                 eltunnek();
-                //MessageBox.Show(helyesvalaszoktobbvagysem_helyzete.ToString());
             }
         }
 
@@ -76,45 +72,30 @@ namespace QuizGame
             if (kerdesek_helyzete == false)
             {
                 temanev = "allatok";
-                korokszama_kerdes();
-
-                //helyesvalaszoktobbvagysem_helyzete = true;
-                //helyesvalaszok_helyzete = true;
                 kerdesekszama_kerdes();
-
             }
             else
             {
                 korokszama = 20;
                 eltunnek();
-                //MessageBox.Show(helyesvalaszoktobbvagysem_helyzete.ToString());
             }
         }
         private void kerdesekszama_kerdes()
         {
             kerdesek_label.Content = "Helyes Válaszok Száma:";
             kerdesek_label.Width = 127;
-            //kerdesek_label.FontSize = 10;
-            //mitosz.Content = "Csak 1 helyes";
             egy_valasz_helyes.Margin = new Thickness(45, 0, -250, 0);
             mitosz.Visibility = Visibility.Hidden;
             zene.Visibility = Visibility.Hidden;
             allatok.Visibility = Visibility.Hidden;
             egy_valasz_helyes.Visibility = Visibility.Visible;
             tobb_valasz_helyes.Visibility = Visibility.Visible;
-            //allatok.Content = "2 vagy annál több";
             tobb_valasz_helyes.Margin = new Thickness(-60, 0, 30, 0);
-            //hozzaad++;
             kerdesek_helyzete = true;
-            //korokszama_kerdes();
-            //ez még nem jó
-            //kerdesek_helyzete = true;
+
         }
         private void korokszama_kerdes()
         {
-            //kerdesekszama_kerdes();
-            //mitosz.Margin = new Thickness(0, 87, 0, 0);
-            //allatok.Margin = new Thickness(15, 0, -23, 23);
             mitosz.Visibility = Visibility.Visible;
             zene.Visibility = Visibility.Visible;
             allatok.Visibility = Visibility.Visible;

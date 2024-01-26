@@ -104,7 +104,6 @@ namespace QuizGame
                 {
                     if (kerdesekszama_listbol == 2 && elsokerdes)
                     {
-
                         talaltszamlalo++;
                         jo_valaszok_szama++;
                         elsokerdes = false;
@@ -121,8 +120,6 @@ namespace QuizGame
                     }
                     if (kerdesekszama_listbol == 3 && elsokerdes)
                     {
-                        //kerdesek_valaszideje_timer.Stop();
-                        //gomb_ido = false;
                         talaltszamlalo++;
                         jo_valaszok_szama++;
                         elsokerdes = false;
@@ -144,8 +141,6 @@ namespace QuizGame
         {
             if (gomb_ido)
             {
-                /*kerdesek_valaszideje_timer.Stop();
-                gomb_ido = false;*/ //ezek meg kellenek mashova
                 if (!tobbkerdes_v_sem)
                 {
                     kerdesek_valaszideje_timer.Stop();
@@ -194,17 +189,12 @@ namespace QuizGame
 
                     }
                 }
-                /*timer.Tick += TimerTick;
-                kerdes_kozti_ido.Visibility = Visibility.Visible;
-                kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
-                timer.Start();*/
             }
         }
         private void rossz2_valasz(object sender, RoutedEventArgs e)
         {
             if (gomb_ido)
             {
-
                 if (!tobbkerdes_v_sem)
                 {
                     kerdesek_valaszideje_timer.Stop();
@@ -246,23 +236,17 @@ namespace QuizGame
                         timer.Start();
                     }
                 }
-                /*timer.Tick += TimerTick;
-                kerdes_kozti_ido.Visibility = Visibility.Visible;
-                kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
-                timer.Start();*/
             }
         }
         private void kerdesek_betolt()
         {
             if (current_kerdesek >= all_keredesek)
             {
-                //MessageBox.Show("itt még jó");
                 timer.Tick += TimerTick;
                 timer.Interval = TimeSpan.FromSeconds(1);
                 kerdes_kozti_ido.Visibility = Visibility.Visible;
                 kerdes_kozti_ido.Content = "Kiértékelés: " + visszaszamol.ToString();
                 timer.Start();
-                //MessageBox.Show("uccso");
                 gyors = false;
                 NavigationService.Navigate(new Kiertekelo());
             }
