@@ -1,0 +1,290 @@
+0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Liszt Ferenc;Frederick Chopin;20;zene;1
+1;Melyik zeneszerző híres a 9.-ik szimfóniáról az Örömóda kórusmozgással?;Ludwig van Beethoven;W. A. Mozart;J. Bach;12;zene;1
+2;Melyik korszakban komponált legtöbb zeneművet Wolfgang Amadeus Mozart?;Klasszikus;Modern;Barokk;28;zene;1
+3;Mi a kifejezés egy szóló hangszer számára, amely általában a művész készségeit mutatja be?;Concerto;Allegretto;Vitruoso;14;zene;1
+4;Ki ismert a Négy Évszak hegedűversenysorozat komponálásáért?;Antonio Vivaldi;L. A. Mozart;Csongor;30;zene;1
+5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a Diótörő zenéjét?;P. I. Tchaikovsky;F. Chopin;S. Shostakovich;18;zene;1
+6;Mi a kifejezés egy olyan zenemű számára, amelyben a hangok emelkednek majd csökkennek?;kupolás;szimmetrikus;ódivatú;25;zene;1
+7;Ki komponálta a híres Holdfény szonátát zongorára?;Ludwig van Beethoven;W. A. Mozart;F. Chopin;10;zene;1
+8;Mely korszakban virágzott Johann Sebastian Bach, George Frideric Handel és Antonio Vivaldi?;Barokk;Rokokó;Gótikus;22;zene;1
+9;Mi a zenei kifejezés a hangerő fokozatos növekedéséhez?;crescendo;decrescendo;ritmuoso;16;zene;1
+10;Ki számít a "szimfónia atyjának" és a "vonósnégyes atyjának"?;Franz Joseph Haydn;J. Bach; L. Beethoven;26;zene;1
+11;Mi a kifejezés egy három vokális részre írt kompozícióhoz?;Trio Sonata;Duo Sonata; Solo Sonata;13;zene;1
+12;Melyik korszakban történt Ludwig van Beethoven átmenete a klasszikus zenétől a romantikusig?(Évszázadra kerekítve.);1800;1700;1900;29;zene;1
+13;Ki ismert a "Figaro házasságáért" című operájáról?;W. A. Mozart;F. Haydn;Liszt Ferenc;15;zene;1
+14;Mi a kifejezés két vagy több hang egyidejű lejátszásához akkord létrehozásához?;Harmónia;Akkord;Terc;21;zene;1
+15;Ki komponálta a Hattyúk tava baletteket?;Camille Saint-Saens;P. I. Tchaikovsky;A. Vivaldi;15;zene;1
+16;Mi a kifejezés egy 'pattogós' hangütésnek?;Stacatto;Concerto;Marcato;27;zene;1
+17;Melyik zeneszerző társul a barokk korszakkal, és komponálta a Vízzenét?;G. F. Handel;F. Haydn;J. Bach;17;zene;1
+18;Mely korszakban komponált Franz Schubert híres liederjeit (műdalok)?;Romantika;Román;Gótiku;24;zene;1
+19;Ki ismert a Brandenburgi versenyművekért?;J. Bach;W. A. Mozart;L. A. Mozart;19;zene;1
+20;Mi a kifejezés egy hangsúlyos leütésnek?;Marcato;Moderato;Tenuto;23;zene;1
+21;Ki az olasz zeneszerző, akit operái, mint a Traviata és a Rigoletto tettek híressé?;Giuseppe Verdi;Bartolomeo Diaz;Tyborg;10;zene;1
+22;Mely korszakban fejlődtek ki a szimfónia és szonáta formák?;Szimfóniák kora;Szerelmesek kora; Kádárok kora;14;zene;1
+24;Hány ütemet mutat egy szokásos ütemmutató?;4;3;8;20;zene;1
+25;Ki a görög mitológiában az istenek királya?;Zeus;Atlas;Hercules;10;mitologia;1
+26;Melyik lénynek van bikafeje és emberi teste a görög mitológiában?;Minotaurusz;Kentaur;Griffin;15;mitologia;1
+27;Ki a bölcsesség és háború istennője a görög mitológiában?;Athena;Pallas Athene;Medusa;25;mitologia;1
+28;Mi a neve a szárnyas lónak a görög mitológiában?;Pegazus;Unikornis;Hűséges;12;mitologia;1
+29;Ki a tenger istene a görög mitológiában?;Poseidon;Hebe;Demeter;28;mitologia;1
+30;Melyik hős küzdött a Gorgó Medusával a görög mitológiában?;Perseus;Heracles;Persephone;17;mitologia;1
+31;Ki a pokol királynője a görög mitológiában?;Persephone;Hera;Hades;22;mitologia;1
+32;Mi volt Pandora híres ládájának a neve a görög mitológiában?;Pandora Doboza;Pandora Ládikója;Pandora Titka;13;mitologia;1
+33;Ki a zene, költészet és jóslás istene a görög mitológiában?;Apollo;Hermes;Zeus;29;mitologia;1
+34;Mi az alvilág folyója a görög mitológiában?;Styx;Akheron;Rubicon;18;mitologia;1
+35;Ki az összes isten atyja a norvég mitológiában?;Odin;Tyr;Baldr;12;mitologia;1
+36;Mi a neve Thor varázsüllőjének a norvég mitológiában?;Mjölnir;Njörd;Frey;23;mitologia;1
+37;Mely lény őrzi a Hel birodalom bejáratát a norvég mitológiában?;Garmr;Fenrir;Vali;15;mitologia;1
+38;Mi a neve a világfának a norvég mitológiában?;Yggdrasil;Valhalla;Nilfheim;27;mitologia;1
+39;Ki a tréfamester isten a norvég mitológiában?;Loki;Thor;Odin;14;mitologia;1
+40;Melyik istennő társul a szerelemhez és a szépséghez a norvég mitológiában?;Frigg;Freya;Hödr;20;mitologia;1
+41;Melyik lény jelzi a Ragnarok eljövetelét a norvég mitológiában?;Fenrir;Cerberus;Ragnarok;11;mitologia;1
+43;Melyik mitikus lény félig halott és félig élő a norvég mitológiában?;Hel;Hodr;Hermod;19;mitologia;1
+44;Mi Odin hollóinak a neve a norvég mitológiában?(Vesszővel elválasztva!);Huginn & Muninn;Hughie & Michael;Harald & Björn;26;mitologia;1
+45;Ki az alvilág istene az egyiptomi mitológiában?;Anubis;Bastet;Geb;10;mitologia;1
+46;Mi a napisten neve az egyiptomi mitológiában?;Ra;Hapi;Horus;15;mitologia;1
+47;Ki a bölcsesség és írás istene az egyiptomi mitológiában?;Thoth;Aton;Heper;25;mitologia;1
+48;Mely lényt gyakran ábrázolnak oroszlán teste és fáraó feje kombinációjaként az egyiptomi mitológiában?;Szfinx;Piramis;Hieroglifa;12;mitologia;1
+49;Ki a kaosz és vihar istene az egyiptomi mitológiában?;Set;Sokar;Sobek;28;mitologia;1
+50;Mi az alvilághoz kapcsolódó folyó neve az egyiptomi mitológiában?;Styx;Nile;Amazon;18;mitologia;1
+51;Ki a szerelem és anyaság istennője az egyiptomi mitológiában?;Hathor;Heka;Ihi;23;mitologia;1
+52;Mi a neve a sólyomfejű istennek, aki az éghez és a királysághoz kapcsolódik az egyiptomi mitológiában?;Horus;Ra;Isis;14;mitologia;1
+53;Melyik isten gyakran ibiszh fejjel ábrázolják az egyiptomi mitológiában?;Thoth;Maahes;Ennead;20;mitologia;1
+54;Ki a sakálfejű isten, aki a mumifikácihhoz kapcsolódik az egyiptomi mitológiában?;Anubis;Re-Harathi;Tefnut;11;mitologia;1
+55;Mi a neve az oltalmazó istennőnek, akit gyakran oroszlánfejűként ábrázolnak az egyiptomi mitológiában?;Sekhmet;Upuaut;Su;27;mitologia;1
+56;Ki a termékenység és anyaság istennője az egyiptomi mitológiában?;Isis;Hentiamentiu;Hapi;16;mitologia;1
+57;Mi a kígyó neve, amely a káoszt szimbolizálja az egyiptomi mitológiában?;Apep;Apis;Benu;22;mitologia;1
+58;Ki a tudás és bölcsesség istene az egyiptomi mitológiában?;Thoth;Mafdet;Kebehut;13;mitologia;1
+59;Mi a bogár neve, amelyet a feltámadáshoz kapcsolnak az egyiptomi mitológiában?;Skarab;Kígyó;Fülbemászó;30;mitologia;1
+60;Mi a legnagyobb nagymacskafaj a világon?;Tigris;Oroszlán;Leopárd;12;allatok;1
+61;Melyik madár ismert a képességéről, hogy utánozza az emberi beszédet?;Jákópapagáj;Papagáj;Sas;18;allatok;1
+62;Mi a legnagyobb emlős a világon?;Kék Bálna;Elefánt;Bálna;24;allatok;1
+63;Mely teknős fajta híres hosszú nyakáról?;Aligátorteknős;Süni;Teknős;15;allatok;1
+64;Mi a leggyorsabb szárazföldi állat?;Gepárd;Szarvas;Antilop;29;allatok;1
+65;Melyik állat alszik állva, és fekete-fehér csíkokról ismert?;Zebra;Ló;Panda;20;allatok;1
+66;Mi az egyetlen emlős, amely képes hosszantartó repülésre?;Denevér;Sólyom;Lepke;13;allatok;1
+67;Melyik kígyó ismert a sisakjáról és halálos mérgéről?;Kobra;Vipera;Boa;26;allatok;1
+68;Mi a legnagyobb medvefaj?;Jegesmedve;Barna Medve;Panda;11;allatok;1
+69;Melyik rovar híres biolumineszcens fényéről?;Szentjános Bogár;Tűzhangya;Lepke;27;allatok;1
+70;Mi az ausztrál nemzeti állat?;Kenguru;Koala;Emu;17;allatok;1
+71;Melyik tengeri emlős híres agyar-szerű fogairól?;Narvál;Delfin;Fóka;22;allatok;1
+72;Mi a legnagyobb élő emberszabású?;Gorilla;Orangután;Csimpánz;14;allatok;1
+73;Melyik hal ismert arról, hogy ellenáll az áramlásnak, hogy így tud felszállni folyókban?;Lazac;Sügér;Pisztráng;30;allatok;1
+74;Mi a legnagyobb pingvinfaj?;Császárpingvin;Királypingvin;Fiatalpingvin;19;allatok;1
+75;Melyik állat a Világ Természetvédelmi Alap (WWF) szimbóluma?;Óriás Panda;Tigris;Elefánt;25;allatok;1
+76;Mi a legkisebb majomfaj?;Cebulla;Gibbon;Makákó;16;allatok;1
+77;Melyik teremtményt nevezik gyakran a "Dzsungel királyának"?;Oroszlán;Tigris;Jaguár;21;allatok;1
+78;Mi az egyetlen kontinens, ahol a zsiráfok vadon élnek?;Afrika;Ázsia;Ausztrália;28;allatok;1
+79;Melyik delfinfajta ismert megkülönböztető rózsaszín színéről?;Amazonasi Folyamidelfin;Bottlenose Delfin;Kaszpi-tengeri Delfin;15;allatok;1
+80;Mi a legnagyobb sasfajta?;Haast-féle Sas;Harpia Sas;Fekete Sas;22;allatok;1
+81;Melyik rovar híres hihetetlen erejéről a méretéhez képest?;Ganajtúró Bogár;Rozsdás Bogár;Hangyabogár;17;allatok;1
+82;Mi az egyetlen erszényes, ami az Egyesült Államokban honos?;Oposszum;Kanguru;Koala;13;allatok;1
+83;Mi az a teremtmény, amit a "sivatag hajója" néven ismernek?;Puputeve;Puptalanteve;Kaktuszegér;19;allatok;1
+84;Mi a leggyorsabb tengeri állat?;Vitorláshal;Delfin;Bálna;14;allatok;1
+85;Melyik rágcsáló híres gátépítő viselkedéséről?;Hód;Mókus;Patkány;20;allatok;1
+86;Mi a legnagyobb cápafaj?;Fehér Cápa;Bálnacápa;Tigriscápa;12;allatok;1
+87;Melyik madár híres hosszú, hajlított csőréről és élénk színű tollazatáról?;Tukán;Flamingó;Pelikán;18;allatok;1
+88;Mi a legnagyobb szárazföldi emlős faj?;Afrikai Elefánt;Indiai Elefánt;Mamut;25;allatok;1
+89;Melyik nagymacskafaj ismert jellegzetes fekete sörényéről?;Oroszlán;Párduc;Jaguar;10;allatok;1
+90;Mi a legnagyobb béka fajta?;Góliát Béka;Őz Béka;Vörös Szemű Béka;27;allatok;1
+91;Melyik teremtményt hívják gyakran a "bölcs öreg madárnak"?;Bagoly;Héja;Sólyom;23;allatok;1
+92;Mi az egyetlen erszényes, amelyet Ausztrálián kívül is megtalálnak?;Virginiai Oposszum;Morszka;Vadászgörény;16;allatok;1
+93;Melyik nagymacskafajta ismert jellegzetes fekete foltjairól vagy rozettáiról?;Jaguár;Leopárd;Puma;21;allatok;1
+94;Mi a legnagyobb hangya faja?;Bullet Ant;Tűzhangya;Lazac;26;allatok;1
+95;Ki a római mitológiában az istenek királya?;Jupiter;Vénusz;Mars;17;mitologia;1
+96;Melyik görög mitológiai lénynek van Medusa feje a pajzsán?;Athena;Heracles;Artemis;25;mitologia;1
+97;Melyik madár a legnagyobb szárnyfesztávolságú a világon?;Albatrosz;Sólyom;Vándorsólyom;14;allatok;1
+98;Melyik állatot nevezik gyakran a "szivárvány hala"-nak a színes külseje miatt?;Szivárványos pisztráng;Harcsa;Napfényhal;22;allatok;1
+99;Ki komponálta a "Peer Gynt" című zenei szvitet?;Edvard Grieg;Miami;Year;18;zene;1
+100;Melyik zeneszerző hozta létre a "Carmen" operát?;Georges Bizet;Albert;Kancsi;29;zene;1
+101;Melyik görög mitológiai hős nevét viseli a hónapok közül egy?;Janus;Julius;Augustus;14;mitologia;1
+102;Melyik két állat közötti párviadal inspirálta a "Halálos iramban: Tokiói hajsza" című filmet?;Jegesmedve és Gorilla;Márk visszatér;Bálna;22;allatok;1
+103;Mi a jelentése a 'legato' zenei kifejezésnek?;Szaggatott;Folyamatos;Ritmikus;18;zene;1
+104;Melyik hangszer a legalsó, legnagyobb hangú a következők közül?;Klarinét;Fagott;Tuba;27;zene;1
+105;Mi a neve annak a jelenségnek, amikor a zenész hirtelen halkul, majd erősödik a hangja?;Crescendo;Staccato;Decrescendo;27;zene;1
+106;Melyik zenei kifejezés jelzi a 'pattogós' hangütést?;Staccato;Concerto;Marcato;27;zene;1
+107;Mi a jelentése a 'fortissimo' dinamika jelölésnek?;Hangos;Halk;Közepesen hangos;22;zene;1
+108;Melyik hangmagasság a legmélyebb a következők közül?;Soprán;Alt;Tenor;27;zene;1
+109;Mi a neve annak a hangszernek, amelyet gyakran használnak a jazz zenekarokban, és a fémes hangja miatt kitűnik?;Trombita;Szaxofon;Klarinét;27;zene;1
+110;Milyen jelzést használnak a zenekari karmesterek a gyors játéktempóra?;Allegro;Andante;Adagio;27;zene;1
+111;Mi a neve annak a résznek a zongorán, ahol a hangszert megnyomva hangok szólnak?;Billentyűzet;Húr;Lap;20;zene;1
+112;Melyik korszakban élt Ludwig van Beethoven?;Barokk;Klasszikus;Romantikus;27;zene;1
+113;Mi a neve annak a fúvóshangszernek, amely hosszú csőből áll, és a zenész a cső végére fújja a levegőt?;Klarinét;Oboa;Fagott;22;zene;1
+114;Mi a neve a zongoraszólamokhoz írt rövid, virtuóz daraboknak?;Sonáta;Etűd;Szimfónia;27;zene;1
+115;Melyik zenei kifejezés jelzi a hirtelen hangosodást?;Crescendo;Fortissimo;Decrescendo;18;zene;1
+116;Mi a neve annak a vonós hangszernek, amelyet az állon helyeznek, és így játszanak rajta?;Cselló;Brácsa;Hegedű;27;zene;1
+117;Mi a neve annak a karmesteri jelölésnek, amikor a zenésznek hirtelen, hangsúlyosan kell megszólaltatnia egy hangot?;Staccato;Accent;Legato;27;zene;1
+118;Melyik zenei műfaj jellemző a szimfonikus költeményekre, tragédiai vagy drámai hangulatú zenére?;Szimfónia;Opera;Balett;27;zene;1
+119;Melyik zenei kifejezés jelzi a lassú és mély játékstílust?;Andante;Adagio;Allegro;18;zene;1
+120;Mi a neve annak a zenekari hangszernek, amely a ritmust és ütést adja a zenekarnak?;Cseleszta;Dob;Harmonika;27;zene;1
+120;Ki volt a görög mitológia főistenasszonya?;Héra;Athena;Afrodité;18;mitologia;1
+121;Melyik görög isten volt az ég és a villámok istene?;Zeusz;Poszeidón;Hádész;22;mitologia;1
+122;Mi volt Odüsszeusz hűséges kutyájának neve?;Argos;Fido;Rex;20;mitologia;1
+123;Melyik isten volt a szerelem és a szépség istennője a görög mitológiában?;Afrodité;Héra;Deméter;18;mitologia;1
+124;Melyik mesebeli szörny volt a Minotaurusz anyja?;Pasziphaé;Medúza;Ekhidna;20;mitologia;1
+125;Mi volt Ikarosz apjának neve, aki viaszsárkányával repült a nap felé?;Daidalosz;Perseusz;Théseusz;22;mitologia;1
+126;Ki volt a görög mitológia legbölcsebb lénye, aki különböző alakokban jelenhetett meg?;Tükrök Királynője;Triton;Proteusz;20;mitologia;1
+127;Melyik istennő volt a vadászat és a vadállatok istennője a görög mitológiában?;Artemisz;Aphrodité;Héra;18;mitologia;1
+128;Melyik mitológiai alak volt félig ló, félig ember?;Minotaurusz;Szent György;Centaur;22;mitologia;1
+129;Mi volt a neve a görög mitológiában a földalatti világ istenének?;Hádész;Zeusz;Poszeidón;20;mitologia;1
+130;Ki volt a görög mitológia hősze, a trojai háború híres harcosa?;Akhilleusz;Hektor;Odiszeusz;18;mitologia;1
+131;Melyik isten számított az olimpiai istenek legifjabbjának a görög mitológiában?;Dionüszosz;Hermész;Apollón;22;mitologia;1
+132;Melyik istennő volt a háború és a stratégia istennője a görög mitológiában?;Athena;Artemisz;Aphrodité;20;mitologia;1
+133;Melyik szörny volt a három testű kutya, akit Hádész az alvilág kapujánál tartott?;Kerberosz;Orthros;Chiméra;18;mitologia;1
+134;Mi volt a neve a görög mitológiában az istenek italának, amely örök életet adott?;Ambroszia;Nektár;Édenszörny;22;mitologia;1
+135;Ki volt a görög mitológia szelek istene?;Boreas;Zefír;Északi Szél;20;mitologia;1
+136;Melyik görög hősnek volt két híres szeme, amelyeket egy dobozban őrzött?;Argus;Küklopsz;Górgó;18;mitologia;1
+137;Mi volt a neve a görög mitológiában az óriások vezérének, aki az istenekkel szembeszállt?;Alkyoneusz;Echidna;Polybotes;22;mitologia;1
+138;Melyik isten volt a szerelem, szépség, és zenének a görög mitológiában?;Aphrodité;Démétér;Héra;20;mitologia;1
+139;Mi volt a neve a görög mitológiában az alvilág folyójának, amelyen Charon vitorlázott?;Styx;Acheron;Lethe;18;mitologia;1
+140;Melyik állat tartja a világ legnagyobb termetű emlősének címét?;Elefánt;Giraff;Kék bálna;22;allatok;1
+141;Milyen állat a narvál?;Tengeri emlős;Rovar;Tengeri sügér;18;allatok;1
+142;Hány lába van egy póknak?;4;6;8;15;allatok;1
+143;Melyik állat a világ legnagyobb ragadozója?;Tigris;Leopárd;Polarmedve;22;allatok;1
+144;Melyik állat híres a szédítő ugrásaival, és egyik lábára állva táplálkozik?;Kanguru;Zsiráf;Koala;18;allatok;1
+145;Melyik kétéltű az egyetlen olyan, amelynek nincs hátgerince?;Varangy;Béka;Salamon;20;allatok;1
+146;Mi a neve a világ legnagyobb repülő madarának?;Kondor;Sólyom;Strucc;22;allatok;1
+147;Melyik állatot hívják "denevérek éjszakai sólymainak"?;Bagoly;Pisztráng;Denevér;18;allatok;1
+148;Melyik ragadozó madár a leggyorsabb szárnyasan a világon?;Királyréce;Peregrine sólyom;Sas;20;allatok;1
+149;Melyik kétéltűt nevezik "szalamandra" néven?;Béka;Varangy;Salamon;22;allatok;1
+150;Mi a világ legnagyobb teknőse faja?;Tengeri teknős;Koponyás teknős;Galápagoszi teknős;18;allatok;1
+151;Melyik állatot tartják a világ legintelligensebb emlősének?;Delfin;Csimpánz;Okádó bálna;20;allatok;1
+152;Melyik madár híres a színes, ragyogó tollazatáról és a táncos párbajáról?;Páva;Fácán;Pingvin;22;allatok;1
+153;Hány lába van egy garnélának?;4;6;8;10;allatok;1
+154;Melyik állatot nevezik a sivatag "királyának"?;Tigrisszalamandra;Lézengő oroszlán;Sivatagi róka;18;allatok;1
+155;Melyik madár híres a hosszú, görbe csőrével és élénk színű tollazatával?;Kakadu;Pelikán;Tukán;20;allatok;1
+156;Melyik emlős az egyetlen, amely repülőképes?;Róka;Denevér;Sólyom;22;allatok;1
+157;Melyik állat a leghosszabb élő kétéltű a világon?;Varangy;Szalamandra;Béka;18;allatok;1
+158;Melyik a világ legnagyobb termetű szárazföldi emlőse?;Elefánt;Zsiráf;Koala;20;allatok;1
+159;Mi a neve annak a hüllőnek, amely az egyetlen élő szárnyas hüllő a világon?;Sárkány;Sárkánygyík;Drákó;22;allatok;1
+160;Melyik emlős a legnagyobb termetű a világon?;Elefánt;Kék bálna;Rhinozerosz;25;allatok;2
+161;Melyik ragadozó madár a leggyorsabb repülő a világon?;Sas;Síma sólyom;Gólya;20;allatok;3
+162;Mi a legnagyobb ragadozó emlős a világon?;Tigris;Krokodil;Barna medve;30;allatok;2
+163;Melyik madár költ a legnagyobb tojásokat?;Strucc;Pinguin;Kakadu;25;allatok;3
+164;Melyik tengeri emlős a legnagyobb termetű?;Kék bálna;Cápa;Narvál;35;allatok;3
+165;Melyik kígyó a leghosszabb a világon?;Zöld piton;Vaskosbója;Fehér gyík;20;allatok;2
+166;Melyik ragadozó él a Földön a legmagasabban?;Hegyi kecske;Jégmedve;Havasi puma;28;allatok;2
+167;Melyik állat a legjobb úszó a vízi élőhelyeken?;Béka;Krokodil;Vízi sün;18;allatok;3
+168;Melyik faj a legnagyobb termetű a majmok között?;Gorilla;Orangután;Csimpánz;22;allatok;2
+169;Melyik ragadozó madár vadászik éjszaka?;Bagoly;Sólyom;Gólya;15;allatok;3
+170;Melyik állat használ hangot tájékozódásra az óceánban?;Delfin;Bálna;Teknős;28;allatok;2
+171;Melyik kétéltű az egyik legmérgezőbb állat a Földön?;Vízi békanyálka;Arany mérges béka;Varangy;22;allatok;2
+172;Melyik ragadozó madár a legkisebb termetű?;Pacsirta;Királyfióka;Széncinege;18;allatok;2
+173;Melyik kígyó a legmérgesebb a világon?;Kobra;Mamba;Kígyókirály;25;allatok;3
+174;Melyik emlős él a leghidegebb klímájú területen?;Jegesmedve;Farkas;Sarki róka;30;allatok;2
+175;Melyik madár költ a legnagyobb magasságban?;Sólyom;Réti sas;Havasi pacsirta;22;allatok;3
+176;Melyik állat képes legtöbb időt eltölteni víz alatt anélkül, hogy levegőt venne?;Béka;Delfin;Víziló;35;allatok;2
+177;Melyik kétéltű az egyik legnagyobb az iszapban való rejtőzködésben?;Vakond;Békaszőlő;Mocsári teknős;28;allatok;2
+178;Melyik ragadozó emlős a leggyorsabb futó a szárazföldön?;Puma;Gepárd;Farkas;22;allatok;3
+179;Melyik állat képes a legtöbb színét változtatni?;Kaméleon;Polip;Tengeri teknős;20;allatok;2
+180;Melyik állat a legnagyobb termetű a szárazföldön?;Elefánt;Rinocérosz;Mamut;40;allatok;3
+181;Melyik madár a legjobb utánzó?;Papagáj;Szarka;Kakadu;15;allatok;2
+182;Melyik ragadozó madár repül a legnagyobb magasságban?;Harris sólyom;Réti sas;Holló;25;allatok;2
+183;Melyik tengeri emlős a legnagyobb fogazatú?;Fogas delfin;Narvál;Bálna;30;allatok;3
+184;Melyik emlős az egyetlen, amely képes repülni?;Denevér;Madár;Cicus;18;allatok;2
+185;Melyik állat rendelkezik a leghosszabb nyakkal?;Zsiráf;Kenguru;Antilop;28;allatok;2
+186;Melyik ragadozó éli a szavannák királyaként ismert életet?;Oroszlán;Tigris;Párduc;22;allatok;3
+271;Melyik nagymacskafaj volt a terjesztője a "Mániászok betegségének" az 1800-as években?;Lion;Tigris;Leopard;28;allatok;2
+272;Melyik ragadozómadár az egyik legnagyobb repülőmadár, amely az alapján kapta nevét, hogy zsákmányát többnyire vízben szerzi meg?;Sas;Sólyom;Vándorsólyom;25;allatok;3
+273;Melyik emlős él a legtovább a Földön?;Galápagoszi teknős;Bowhead bálna;Grönlandi cápa;30;allatok;2
+274;Melyik kétéltű állat a legnagyobb a világon?;Gigantikus salamander;Varangy;Csattogó béka;22;allatok;2
+275;Hány lábon jár a kenguru?;2;4;6;20;allatok;2
+276;Melyik fajta teknős a legnagyobb méretű?;Galápagoszi teknős;Kemény teknős;Csupasz teknős;25;allatok;3
+277;Melyik hüllő volt az egyetlen élő szárnyas hüllő a világon?;Sárkánygyík;Kínai sárkány;Sárkány;18;allatok;2
+278;Hány szemmel rendelkezik a méh?;2;4;6;22;allatok;2
+279;Melyik madárfaj a legnagyobb repülő madár a Földön?;Albatrosz;Kondor;Sólyom;28;allatok;2
+280;Hány hónapig tart egy elefánt vemhessége átlagosan?;22;18;24;25;allatok;2
+281;Melyik a legnagyobb termetű fóka?;Elefántfóka;Szürkefóka;Leopárdfóka;30;allatok;2
+282;Melyik ragadozómadár a legnagyobb testű a sasfélék között?;Holló;Királyréce;Királysas;25;allatok;3
+283;Hány szeme van a házikedvencünk, a macskának?;2;4;6;22;allatok;2
+284;Melyik ragadozómadár a legnagyobb fajta?;Sas;Királysas;Sólyom;28;allatok;2
+285;Melyik kígyófajta a leghosszabb a világon?;Zöld anakonda;Indiai piton;Királypiton;25;allatok;3
+286;Hány lába van a százlábúnak?;50;100;200;18;allatok;2
+287;Melyik madárfaj a legnagyobb teste?;Strucc;Pelikán;Kiwi;22;allatok;2
+288;Hány szeme van a póknak?;4;6;8;20;allatok;2
+289;Melyik emlős a leghosszabb életű a Földön?;Galápagoszi teknős;Bowhead bálna;Hosszúéletű denevér;30;allatok;2
+290;Melyik kétéltű állat a legnagyobb a világon?;Gigantikus salamander;Varangy;Csattogó béka;28;allatok;3
+187;Ki a görög mitológia ura, a menny és a föld királya?;Zeusz;Hádész;Poszeidón;30;mitologia;2
+188;Melyik görög isten az ég és az idő istene?;Uránosz;Kronosz;Zeusz;25;mitologia;3
+189;Melyik római istennő a szerelem és a szépség istennője?;Venusz;Juno;Diana;22;mitologia;2
+190;Ki volt a görög mitológia hőszeusza, a trójai háború hőse?;Achilles;Hektor;Odüsszeusz;28;mitologia;3
+191;Ki volt a római panteon isteneinek főistenasszonya?;Ceres;Juno;Minerva;20;mitologia;2
+192;Ki volt az ókori egyiptomi napisten?;Ra;Anubisz;Osiris;25;mitologia;3
+193;Melyik görög hős volt az, aki megölte a sárkányt és átvágta az erdei tisztást?;Perseusz;Théseusz;Heraklész;18;mitologia;2
+194;Ki volt az ókori görög tűz- és kovácsisten?;Héphaisztosz;Apollón;Dionüszosz;22;mitologia;2
+195;Melyik mitológiai lény képes volt emberek szívét lopni?;Szikár;Szfinx;Harpija;30;mitologia;2
+196;Ki volt az ókori görög istenek legifjabbika és legokosabbika?;Hermész;Dionüszosz;Apollón;28;mitologia;3
+197;Melyik isten volt a római háborús isten?;Mars;Mercurius;Vulkanusz;25;mitologia;2
+198;Ki volt az ókori görög istenek és emberek közötti közvetítő?;Hermész;Héra;Demétér;20;mitologia;2
+199;Melyik görög mitológiai lény volt fél ember, fél ló?;Szatír;Kentaur;Minótaurosz;22;mitologia;3
+200;Ki volt a római hadisten, akit a görög Arésznek megfelelőnek tekintünk?;Mars;Neptun;Venus;18;mitologia;2
+201;Melyik ókori kultúrában voltak olyan istenek, mint Izisz és Oszirisz?;Egyiptom;Maja;Szumér;25;mitologia;2
+202;Ki volt a görög mitológia szerint a háború és a harc istene?;Arész;Athéné;Hermész;25;mitologia;2
+203;Melyik ókori kultúrában voltak olyan istenek, mint Anu és Enlil?;Szumér;Görög;Egyiptomi;28;mitologia;3
+204;Melyik görög isten az idő, a kor és a vénuság istene?;Kronosz;Hádész;Démétér;22;mitologia;2
+205;Ki volt a római mitológia alvilági istenasszonya?;Persefóné;Juno;Vénusz;20;mitologia;2
+206;Melyik ókori kultúrában találhatóak olyan istenek, mint Inanna és Utu?;Szumér;Egyiptomi;Indiai;30;mitologia;2
+207;Ki volt a görög mitológia napistenasszonya?;Héliosz;Phoibé;Éosz;25;mitologia;2
+208;Melyik ókori kultúrában található a toronyból szabaduló isteni nyelvek története?;Babilon;Egyiptom;Görög;28;mitologia;3
+209;Ki volt a római mitológia tenger istene?;Neptun;Mercurius;Jupiter;22;mitologia;2
+210;Melyik görög istennő a házasság és a család istennője?;Hera;Aphrodité;Artemisz;20;mitologia;2
+211;Ki volt az ókori egyiptomi istenek királya és az ég istene?;Ra;Osiris;Anubisz;25;mitologia;3
+212;Melyik római isten volt az épületek, az ipar és a kovácsolás istene?;Vulkanusz;Mars;Jupiter;18;mitologia;2
+213;Ki volt az ókori görög istenek panteonjának mesterkovácsa és találmányainak alkotója?;Héphaisztosz;Daidalosz;Prométheusz;22;mitologia;2
+214;Melyik mitológiai lény képes volt örökké élni és a tükrében látható volt a jövő?;Tündér;Elf;Hárpia;30;mitologia;2
+215;Ki volt a római mitológia alvilági folyója és az alsó világ istene?;Styx;Lethe;Cocytus;28;mitologia;3
+216;Melyik ókori kultúrában találhatók a démonokkal és szellemekkel kapcsolatos történetek?;Kínai;Görög;Indiai;25;mitologia;2
+217;Ki volt a görög mitológia szerint az embereknek és isteneknek közvetítője, az üzenetek hírnöke?;Hermész;Artemisz;Apollón;20;mitologia;2
+218;Melyik római isten volt a háborús isten és a városok védője?;Mars;Vulkanusz;Neptun;22;mitologia;2
+219;Ki volt az ókori egyiptomi istenek és istennők kreatív és alkotó hatalmának szimbóluma?;Ptah;Thot;Anubisz;18;mitologia;3
+220;Melyik ókori kultúrában találhatók olyan istenek, mint Ishtar és Marduk?;Babilon;Egyiptom;Görög;25;mitologia;2
+221;Ki volt a római mitológia istenek és emberek közötti kapcsolatok és szerelmi ügyek istene?;Kupido;Mars;Venus;28;mitologia;3
+222;Ki volt a "Purple Haze" és a "Hey Joe" című dalok mögött álló legendás gitáros és énekes?;Jimi Hendrix;Eric Clapton;Jimmy Page;30;zene;2
+223;Melyik Beatles tag írta a "Hey Jude" című dalt?;Paul McCartney;John Lennon;George Harrison;25;zene;2
+224;Ki az "Álomfürdő" című dal előadója?;Omega;Beatrice;Republic;22;zene;3
+225;Melyik műfajhoz kapcsolódik a "Moonlight Sonata" című zongoradarab?;Klasszikus;Jazz;Blues;20;zene;2
+226;Ki volt a "Thriller" album előadója?;Michael Jackson;Prince;Madonna;28;zene;2
+227;Melyik évben kezdődött az Woodstocki fesztivál?;1969;1971;1973;18;zene;2
+228;Ki volt a "Like a Virgin" című dal előadója?;Madonna;Whitney Houston;Cindy Lauper;22;zene;2
+229;Melyik művész alkotta meg a "Starry Night" című festményt?;Vincent van Gogh;Pablo Picasso;Leonardo da Vinci;25;zene;3
+230;Melyik műfajhoz tartozik a "Bohemian Rhapsody" című dal?;Rock;Pop;Metal;30;zene;2
+231;Ki volt a "Purple Rain" című album előadója?;Prince;David Bowie;Stevie Wonder;28;zene;2
+232;Melyik évben jelent meg a "Thriller" album?;1982;1985;1988;25;zene;2
+233;Ki az "Angie" és a "Paint It Black" című dalok mögött álló legendás rockegyüttes?;The Rolling Stones;The Beatles;Led Zeppelin;28;zene;2
+234;Ki volt a "Purple Haze" és a "Foxy Lady" című dalok mögött álló gitáros-énekes?;Jimi Hendrix;Eric Clapton;Jimmy Page;30;zene;2
+235;Melyik évben adták ki a "Dark Side of the Moon" című Pink Floyd albumot?;1973;1975;1977;22;zene;3
+236;Ki a "Black Sabbath" és a "Paranoid" című dalok mögött álló brit heavy metal zenekar vezetője?;Ozzy Osbourne;Ronnie James Dio;Tony Iommi;28;zene;2
+237;Melyik évben jelent meg a "Bohemian Rhapsody" című Queen dal?;1975;1978;1980;20;zene;2
+238;Ki volt a "Hotel California" című dal mögött álló együttes?;Eagles;Fleetwood Mac;The Eagles;25;zene;2
+239;Melyik évben alakult meg a Nirvana zenekar?;1987;1990;1994;18;zene;2
+240;Ki volt a "Purple Haze" című dal mögött álló gitáros és énekes?;Jimi Hendrix;Eric Clapton;Jimmy Page;25;zene;3
+241;Melyik évben jelent meg a "Billie Jean" című dal Michael Jackson előadásában?;1982;1985;1988;30;zene;2
+242;Ki volt a "Yesterday" és a "Let It Be" című dalok mögött álló brit zenekar tagja?;The Beatles;The Rolling Stones;The Who;22;zene;2
+243;Melyik évben jelent meg a "The Wall" című Pink Floyd album?;1979;1981;1983;28;zene;2
+244;Ki volt a "Imagine" című dal mögött álló zenész és énekes?;John Lennon;Paul McCartney;George Harrison;25;zene;3
+245;Melyik évben jelent meg a "Back in Black" című AC/DC album?;1980;1982;1984;20;zene;2
+246;Ki volt a "Hound Dog" és a "Love Me Tender" című dalok mögött álló rock and roll ikon?;Elvis Presley;Chuck Berry;Little Richard;28;zene;2
+247;Melyik évben jelent meg a "Purple Rain" című Prince album?;1984;1986;1988;22;zene;2
+248;Ki volt a "Rocket Man" és a "Candle in the Wind" című dalok mögött álló brit zenész és énekes?;Elton John;David Bowie;Freddie Mercury;25;zene;3
+249;Melyik évben jelent meg a "Dark Side of the Moon" című Pink Floyd album?;1973;1975;1977;30;zene;2
+250;Ki volt a "Ziggy Stardust" és a "Space Oddity" című dalok mögött álló brit zenész és énekes?;David Bowie;Mick Jagger;Freddy Mercury;28;zene;2
+251;Ki volt a "Sound of Silence" és a "Bridge Over Troubled Water" című dalok mögött álló folk rock duó?;Simon & Garfunkel;The Everly Brothers;The Beatles;25;zene;2
+252;Melyik évben jelent meg a "Back to Black" című Amy Winehouse album?;2006;2008;2010;20;zene;2
+253;Ki volt a "Blowin' in the Wind" és a "Like a Rolling Stone" című dalok mögött álló folk ikon?;Bob Dylan;Johnny Cash;Joni Mitchell;22;zene;2
+254;Melyik évben jelent meg a "Thriller" című Michael Jackson album?;1982;1985;1988;28;zene;2
+255;Ki volt a "Rocket Man" és a "Tiny Dancer" című dalok mögött álló brit zenész és énekes?;Elton John;David Bowie;Freddie Mercury;30;zene;2
+256;Melyik évben jelent meg a "Nevermind" című Nirvana album?;1991;1993;1995;22;zene;3
+257;Ki volt a "Sweet Child o' Mine" és a "November Rain" című dalok mögött álló Guns N' Roses gitáros-énekese?;Slash;Axl Rose;Izzy Stradlin;25;zene;2
+258;Melyik évben jelent meg a "Abbey Road" című The Beatles album?;1969;1971;1973;28;zene;2
+259;Ki volt a "Rehab" és a "Valerie" című dalok mögött álló brit énekesnő?;Amy Winehouse;Adele;Duffy;20;zene;2
+260;Melyik évben jelent meg a "Rumours" című Fleetwood Mac album?;1977;1979;1981;22;zene;2
+261;Ki volt a "Purple Haze" és a "The Wind Cries Mary" című dalok mögött álló gitáros-énekes?;Jimi Hendrix;Eric Clapton;Jimmy Page;25;zene;3
+262;Melyik évben jelent meg a "Sgt. Pepper's Lonely Hearts Club Band" című The Beatles album?;1967;1969;1971;30;zene;2
+263;Ki volt a "Bad Romance" és a "Poker Face" című dalok mögött álló amerikai énekesnő?;Lady Gaga;Beyoncé;Katy Perry;28;zene;2
+264;Melyik évben jelent meg a "Led Zeppelin IV" című album?;1971;1973;1975;22;zene;3
+265;Ki volt a "Wish You Were Here" és a "Comfortably Numb" című dalok mögött álló brit rockzenekar vezetője?;Pink Floyd;Queen;The Rolling Stones;25;zene;2
+266;Melyik évben jelent meg a "The Joshua Tree" című U2 album?;1987;1989;1991;28;zene;2
+267;Ki volt a "Purple Haze" és a "The Wind Cries Mary" című dalok mögött álló gitáros-énekes?;Jimi Hendrix;Eric Clapton;Jimmy Page;22;zene;2
+268;Melyik évben jelent meg a "Dark Side of the Moon" című Pink Floyd album?;1973;1975;1977;30;zene;2
+269;Ki volt a "Smells Like Teen Spirit" és a "Come as You Are" című dalok mögött álló Nirvana énekese?;Kurt Cobain;Dave Grohl;Krist Novoselic;28;zene;2
+270;Melyik évben jelent meg a "Black Album" című Metallica album?;1991;1993;1995;20;zene;2
