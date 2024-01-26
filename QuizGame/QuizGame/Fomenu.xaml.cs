@@ -37,7 +37,6 @@ namespace QuizGame
             tobb_valasz_helyes.Visibility = Visibility.Hidden;
             kerdesek_label.Content = "Játékos Neve:";
         }
-
         private void mitosz_click(object sender, RoutedEventArgs e)
         {
             if (kerdesek_helyzete == false)
@@ -54,7 +53,6 @@ namespace QuizGame
 
         private void zene_click(object sender, RoutedEventArgs e)
         {
-
             if (kerdesek_helyzete == false)
             {
                 temanev = "zene";
@@ -66,7 +64,6 @@ namespace QuizGame
                 eltunnek();
             }
         }
-
         private void allatok_click(object sender, RoutedEventArgs e)
         {
             if (kerdesek_helyzete == false)
@@ -113,7 +110,6 @@ namespace QuizGame
         {
             NavigationService.Navigate(new Game());
         }
-
         private void nev_tovabblepes(object sender, RoutedEventArgs e)
         {
             nev = jatekos_nev.Text;
@@ -144,13 +140,11 @@ namespace QuizGame
                 hibauzenet.Content = "Nem lehet benne ilyen karakter! (';')";
             }
         }
-
         private void Egy_valasz_click(object sender, RoutedEventArgs e)
         {
             helyesvalaszoktobbvagysem_helyzete = false;
             korokszama_kerdes();
         }
-
         private void tobb_valasz_click(object sender, RoutedEventArgs e)
         {
             helyesvalaszoktobbvagysem_helyzete = true;
