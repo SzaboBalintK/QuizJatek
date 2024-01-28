@@ -48,42 +48,8 @@ namespace QuizGame
             List<Jatekos_sajat> eredmenyek = new List<Jatekos_sajat>();
             List<string> eredmenyeksima = new List<string>();
             //int a = File.ReadAllLines("mentes.txt").Length;
-            foreach (string sor in File.ReadAllLines("mentes.txt"))
-            {
-                eredmenyek.Add(new Jatekos_sajat(sor));
-                eredmenyeksima.Add(sor);
-
-            }
-            var logika_bool = (eredmenyek.Any(n => n.nev == jatekosneve));//van-e ilyen nevu felhasznalo
-            
-
-            if (logika_bool)//ha van (true)
-            {   var logika = (eredmenyek.Where(n => n.nev == jatekosneve).First());
-                var felhasznalo1 = eredmenyek.FindIndex(x => x.nev == jatekosneve);
-                if (tobbkerdes_vagy_sem)
-                {
-                    if (logika.legjobbpontszam >= b)//ha a fajlba nagyobb az eredmeny akkor marad
-                    {
-                        eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{logika.elertpontszam_sima};{logika.legjobbpontszam_sima};{a};{logika.legjobbpontszam}");
-                    }
-                    else
-                    {
-                        eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{logika.elertpontszam_sima};{logika.legjobbpontszam_sima};{a};{b}");
-                    }
-                }
-                else
-                {
-                    if (logika.legjobbpontszam_sima >= b)//ha a fajlba nagyobb az eredmeny akkor marad
-                    {
-                        eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{logika.legjobbpontszam_sima};{logika.elertpontszam};{logika.legjobbpontszam}");
-                    }
-                    else
-                    {
-                        eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{b};{logika.elertpontszam};{logika.legjobbpontszam}");
-                    }
-                } 
-            }//ha nincs
-            else
+            string[] ures_v_sem = File.ReadAllLines("mentes.txt");
+            if (ures_v_sem.Length == 0 || (ures_v_sem.Length == 1 && string.IsNullOrWhiteSpace(ures_v_sem[0])))
             {
                 if (tobbkerdes_vagy_sem)
                 {
@@ -94,6 +60,56 @@ namespace QuizGame
                     eredmenyeksima.Add($"{jatekosneve};{a};{b};0;0");
                 }
             }
+            else
+            {
+                foreach (string sor in File.ReadAllLines("mentes.txt"))
+                {
+                    eredmenyek.Add(new Jatekos_sajat(sor));
+                    eredmenyeksima.Add(sor);
+
+                }
+                var logika_bool = (eredmenyek.Any(n => n.nev == jatekosneve));//van-e ilyen nevu felhasznalo
+
+
+                if (logika_bool)//ha van (true)
+                {
+                    var logika = (eredmenyek.Where(n => n.nev == jatekosneve).First());
+                    var felhasznalo1 = eredmenyek.FindIndex(x => x.nev == jatekosneve);
+                    if (tobbkerdes_vagy_sem)
+                    {
+                        if (logika.legjobbpontszam >= b)//ha a fajlba nagyobb az eredmeny akkor marad
+                        {
+                            eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{logika.elertpontszam_sima};{logika.legjobbpontszam_sima};{a};{logika.legjobbpontszam}");
+                        }
+                        else
+                        {
+                            eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{logika.elertpontszam_sima};{logika.legjobbpontszam_sima};{a};{b}");
+                        }
+                    }
+                    else
+                    {
+                        if (logika.legjobbpontszam_sima >= b)//ha a fajlba nagyobb az eredmeny akkor marad
+                        {
+                            eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{logika.legjobbpontszam_sima};{logika.elertpontszam};{logika.legjobbpontszam}");
+                        }
+                        else
+                        {
+                            eredmenyeksima[felhasznalo1] = ($"{jatekosneve};{a};{b};{logika.elertpontszam};{logika.legjobbpontszam}");
+                        }
+                    }
+                }//ha nincs
+                else
+                {
+                    if (tobbkerdes_vagy_sem)
+                    {
+                        eredmenyeksima.Add($"{jatekosneve};0;0;{a};{b}");//teljes sort ad hozzá a lista tipusanak megfeleloen
+                    }
+                    else
+                    {
+                        eredmenyeksima.Add($"{jatekosneve};{a};{b};0;0");
+                    }
+                }
+            } 
             File.WriteAllLines("mentes.txt", eredmenyeksima);
         }
     }
