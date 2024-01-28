@@ -108,7 +108,7 @@ namespace QuizGame
         }
         private void eltunnek()
         {
-            NavigationService.Navigate(new Game());
+            NavigationService.Navigate(new Kiertekelo());
         }
         private void nev_tovabblepes(object sender, RoutedEventArgs e)
         {
