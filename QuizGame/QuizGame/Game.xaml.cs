@@ -61,6 +61,7 @@ namespace QuizGame
         private int visszaszamol = 5;
         private int kerdesekszama_listbol = 0;
         private int talaltszamlalo = 0;
+        List<int> volt_szamok = new List<int>();
 
         public Game()
         {
@@ -282,12 +283,13 @@ namespace QuizGame
                 int randomszam = random.Next(0, temahoz_szavak.Count() + 1);
                 int gombokhelye_switch = random_gombok_helye.Next(1, 4);
                 //int gombokhelye_switch = 1; //teszthez kellett
-                List<int> volt_szamok = new List<int>();
-                while (volt_szamok.Contains(randomszam))
+
+                while (volt_szamok.Any(n => n.ToString() == randomszam.ToString()))
                 {
                     randomszam = random.Next(0, temahoz_szavak.Count() + 1);
                 }
-                bool szam_volt_v_sem = volt_szamok.Contains(randomszam);
+                bool szam_volt_v_sem = volt_szamok.Any(n => n.ToString() == randomszam.ToString());
+                //MessageBox.Show(szam_volt_v_sem.ToString());
                 if (szam_volt_v_sem == false)
                 {
                     volt_szamok.Add(randomszam);
