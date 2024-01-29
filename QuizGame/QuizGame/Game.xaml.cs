@@ -225,11 +225,12 @@ namespace QuizGame
                             timer.Start();
                         }
                     }
-                    if (kerdesekszama_listbol == 2)
+                    if (kerdesekszama_listbol == 2 && harmadikkerdes)
                     {
                         valasz_harmadikeleme.Background = Brushes.IndianRed;
                         kerdesek_valaszideje_timer.Stop();
                         gomb_ido = false;
+                        harmadikkerdes = false;
                         timer.Tick += TimerTick;
                         kerdes_kozti_ido.Visibility = Visibility.Visible;
                         kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
