@@ -21,8 +21,14 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
+        <Button x:Name="vissza_gomb" Grid.Column="0" Grid.Row="0" Width="150" Height="75" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Főmenü" FontSize="30" Click="Vissza"/>
         <Label Grid.Column="1" Grid.Row="0" Content="Összegzés" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40"/>
-        <Label x:Name="elert_pontszam" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <Label x:Name="felh_nev" Grid.Column="1" Grid.Row="0" Content="" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="20"/>
+        <Label x:Name="elert_pontszam" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="legjobb_pontszam" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <Label x:Name="elert_ponszamok" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="20"/>
+        <Label x:Name="legjobb_ponszamok" Grid.Column="1" Grid.Row="2" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15"/>
+        <Label x:Name="aaa" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
     </Grid>
 
 </Page>

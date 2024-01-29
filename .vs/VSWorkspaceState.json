@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\QuizGame",
-    "\\QuizGame\\QuizGame"
+    "\\QuizGame\\QuizGame",
+    "\\QuizGame\\QuizGame\\bin",
+    "\\QuizGame\\QuizGame\\bin\\Debug"
   ],
-  "SelectedNode": "\\QuizGame\\QuizGame\\MainWindow.xaml.cs",
+  "SelectedNode": "\\QuizGame\\QuizGame\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

@@ -35,19 +35,18 @@ namespace QuizGame
     }
 
     public partial class Kiertekelo : Page
-    { private bool tobbkerdes_vagy_sem = Fomenu.helyesvalaszoktobbvagysem_helyzete;
+    {
+        private bool tobbkerdes_vagy_sem = Fomenu.helyesvalaszoktobbvagysem_helyzete;
         public Kiertekelo()
         {
             InitializeComponent();
-            
-            elert_pontszam.Content = "Elért pontszám: " + Game.jo_valaszok_szama.ToString();
+            kiiratas();
             jatekosok_mentese_sajat(Fomenu.nev, Game.jo_valaszok_szama, Game.jo_valaszok_szama);
         }
         public void jatekosok_mentese_sajat(string jatekosneve, int a, int b)
         {  //hibakezeles kell, ha nincs semmi sem a fajlban
             List<Jatekos_sajat> eredmenyek = new List<Jatekos_sajat>();
             List<string> eredmenyeksima = new List<string>();
-            //int a = File.ReadAllLines("mentes.txt").Length;
             string[] ures_v_sem = File.ReadAllLines("mentes.txt");
             if (ures_v_sem.Length == 0 || (ures_v_sem.Length == 1 && string.IsNullOrWhiteSpace(ures_v_sem[0])))
             {
@@ -69,7 +68,6 @@ namespace QuizGame
 
                 }
                 var logika_bool = (eredmenyek.Any(n => n.nev == jatekosneve));//van-e ilyen nevu felhasznalo
-
 
                 if (logika_bool)//ha van (true)
                 {
@@ -109,8 +107,35 @@ namespace QuizGame
                         eredmenyeksima.Add($"{jatekosneve};{a};{b};0;0");
                     }
                 }
-            } 
+            }
             File.WriteAllLines("mentes.txt", eredmenyeksima);
+        }
+        public void kiiratas()
+        {
+            List<Jatekos_sajat> eredmenyek = new List<Jatekos_sajat>();
+            foreach (var sor in File.ReadAllLines("mentes.txt"))
+            {
+                eredmenyek.Add(new Jatekos_sajat(sor));
+            }
+            var logika_bool = (eredmenyek.Any(n => n.nev == Fomenu.nev));
+            if (logika_bool)
+            {
+                var logika = (eredmenyek.Where(n => n.nev == Fomenu.nev).First());
+                elert_pontszam.Content = "Elért pontszám: " + logika.elertpontszam_sima.ToString();
+                elert_ponszamok.Content = "Elért ponszám (több válasz): " + logika.elertpontszam.ToString();
+                legjobb_pontszam.Content = "Legjobb eredmény: " + logika.legjobbpontszam_sima.ToString();
+                legjobb_ponszamok.Content = "Legjobb eredmény  (több válasz): " + logika.legjobbpontszam.ToString();
+                felh_nev.Content = logika.nev;
+            }
+            else
+            {
+                aaa.Content = "Nincs még ilyen felhasználó.";
+            }
+        }
+
+        private void Vissza(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new Fomenu());
         }
     }
 }
