@@ -280,14 +280,17 @@ namespace QuizGame
                 }
                 Random random = new Random();
                 Random random_gombok_helye = new Random();
-                int randomszam = random.Next(0, temahoz_szavak.Count() + 1);
+                int randomszam = random.Next(0, temahoz_szavak.Count());
                 int gombokhelye_switch = random_gombok_helye.Next(1, 4);
                 //int gombokhelye_switch = 1; //teszthez kellett
-
-                while (volt_szamok.Any(n => n.ToString() == randomszam.ToString()))
+                do
                 {
-                    randomszam = random.Next(0, temahoz_szavak.Count() + 1);
-                }
+                    randomszam = random.Next(0, temahoz_szavak.Count());
+                } while (volt_szamok.Any(n => n.ToString() == randomszam.ToString()));
+                /*while (volt_szamok.Any(n => n.ToString() == randomszam.ToString()))
+                {
+                    randomszam = random.Next(0, temahoz_szavak.Count());
+                }*/
                 bool szam_volt_v_sem = volt_szamok.Any(n => n.ToString() == randomszam.ToString());
                 //MessageBox.Show(szam_volt_v_sem.ToString());
                 if (szam_volt_v_sem == false)

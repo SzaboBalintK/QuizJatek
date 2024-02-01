@@ -1,7 +1,7 @@
 0;Ki számít a nyugati klasszikus zene atyjának?;Josquin des Prez;Liszt Ferenc;Frederick Chopin;20;zene;1
 1;Melyik zeneszerző híres a 9.-ik szimfóniáról az Örömóda kórusmozgással?;Ludwig van Beethoven;W. A. Mozart;J. Bach;12;zene;1
 2;Melyik korszakban komponált legtöbb zeneművet Wolfgang Amadeus Mozart?;Klasszikus;Modern;Barokk;28;zene;1
-3;Mi a kifejezés egy szóló hangszer számára, amely általában a művész készségeit mutatja be?;Concerto;Allegretto;Vitruoso;14;zene;1
+3;Mi a kifejezés egy szóló hangszer számára, amely általában a művész készségeit mutatja be?;Concerto;Allegretto;Virtuoso;14;zene;1
 4;Ki ismert a Négy Évszak hegedűversenysorozat komponálásáért?;Antonio Vivaldi;L. A. Mozart;Csongor;30;zene;1
 5;Melyik zeneszerző társul a romantikus korszakkal, és komponálta a Diótörő zenéjét?;P. I. Tchaikovsky;F. Chopin;S. Shostakovich;18;zene;1
 6;Mi a kifejezés egy olyan zenemű számára, amelyben a hangok emelkednek majd csökkennek?;kupolás;szimmetrikus;ódivatú;25;zene;1
@@ -14,7 +14,7 @@
 13;Ki ismert a "Figaro házasságáért" című operájáról?;W. A. Mozart;F. Haydn;Liszt Ferenc;15;zene;1
 14;Mi a kifejezés két vagy több hang egyidejű lejátszásához akkord létrehozásához?;Harmónia;Akkord;Terc;21;zene;1
 15;Ki komponálta a Hattyúk tava baletteket?;Camille Saint-Saens;P. I. Tchaikovsky;A. Vivaldi;15;zene;1
-16;Mi a kifejezés egy 'pattogós' hangütésnek?;Stacatto;Concerto;Marcato;27;zene;1
+16;Mi a kifejezés egy 'pattogós' hangütésnek?;Staccato;Concerto;Marcato;27;zene;1
 17;Melyik zeneszerző társul a barokk korszakkal, és komponálta a Vízzenét?;G. F. Handel;F. Haydn;J. Bach;17;zene;1
 18;Mely korszakban komponált Franz Schubert híres liederjeit (műdalok)?;Romantika;Román;Gótiku;24;zene;1
 19;Ki ismert a Brandenburgi versenyművekért?;J. Bach;W. A. Mozart;L. A. Mozart;19;zene;1
@@ -184,47 +184,26 @@
 184;Melyik emlős az egyetlen, amely képes repülni?;Denevér;Madár;Cicus;18;allatok;2
 185;Melyik állat rendelkezik a leghosszabb nyakkal?;Zsiráf;Kenguru;Antilop;28;allatok;2
 186;Melyik ragadozó éli a szavannák királyaként ismert életet?;Oroszlán;Tigris;Párduc;22;allatok;3
-271;Melyik nagymacskafaj volt a terjesztője a "Mániászok betegségének" az 1800-as években?;Lion;Tigris;Leopard;28;allatok;2
-272;Melyik ragadozómadár az egyik legnagyobb repülőmadár, amely az alapján kapta nevét, hogy zsákmányát többnyire vízben szerzi meg?;Sas;Sólyom;Vándorsólyom;25;allatok;3
-273;Melyik emlős él a legtovább a Földön?;Galápagoszi teknős;Bowhead bálna;Grönlandi cápa;30;allatok;2
-274;Melyik kétéltű állat a legnagyobb a világon?;Gigantikus salamander;Varangy;Csattogó béka;22;allatok;2
-275;Hány lábon jár a kenguru?;2;4;6;20;allatok;2
-276;Melyik fajta teknős a legnagyobb méretű?;Galápagoszi teknős;Kemény teknős;Csupasz teknős;25;allatok;3
-277;Melyik hüllő volt az egyetlen élő szárnyas hüllő a világon?;Sárkánygyík;Kínai sárkány;Sárkány;18;allatok;2
-278;Hány szemmel rendelkezik a méh?;2;4;6;22;allatok;2
-279;Melyik madárfaj a legnagyobb repülő madár a Földön?;Albatrosz;Kondor;Sólyom;28;allatok;2
-280;Hány hónapig tart egy elefánt vemhessége átlagosan?;22;18;24;25;allatok;2
-281;Melyik a legnagyobb termetű fóka?;Elefántfóka;Szürkefóka;Leopárdfóka;30;allatok;2
-282;Melyik ragadozómadár a legnagyobb testű a sasfélék között?;Holló;Királyréce;Királysas;25;allatok;3
-283;Hány szeme van a házikedvencünk, a macskának?;2;4;6;22;allatok;2
-284;Melyik ragadozómadár a legnagyobb fajta?;Sas;Királysas;Sólyom;28;allatok;2
-285;Melyik kígyófajta a leghosszabb a világon?;Zöld anakonda;Indiai piton;Királypiton;25;allatok;3
-286;Hány lába van a százlábúnak?;50;100;200;18;allatok;2
-287;Melyik madárfaj a legnagyobb teste?;Strucc;Pelikán;Kiwi;22;allatok;2
-288;Hány szeme van a póknak?;4;6;8;20;allatok;2
-289;Melyik emlős a leghosszabb életű a Földön?;Galápagoszi teknős;Bowhead bálna;Hosszúéletű denevér;30;allatok;2
-290;Melyik kétéltű állat a legnagyobb a világon?;Gigantikus salamander;Varangy;Csattogó béka;28;allatok;3
-187;Ki a görög mitológia ura, a menny és a föld királya?;Zeusz;Hádész;Poszeidón;30;mitologia;2
-188;Melyik görög isten az ég és az idő istene?;Uránosz;Kronosz;Zeusz;25;mitologia;3
-189;Melyik római istennő a szerelem és a szépség istennője?;Venusz;Juno;Diana;22;mitologia;2
-190;Ki volt a görög mitológia hőszeusza, a trójai háború hőse?;Achilles;Hektor;Odüsszeusz;28;mitologia;3
-191;Ki volt a római panteon isteneinek főistenasszonya?;Ceres;Juno;Minerva;20;mitologia;2
-192;Ki volt az ókori egyiptomi napisten?;Ra;Anubisz;Osiris;25;mitologia;3
-193;Melyik görög hős volt az, aki megölte a sárkányt és átvágta az erdei tisztást?;Perseusz;Théseusz;Heraklész;18;mitologia;2
-194;Ki volt az ókori görög tűz- és kovácsisten?;Héphaisztosz;Apollón;Dionüszosz;22;mitologia;2
-195;Melyik mitológiai lény képes volt emberek szívét lopni?;Szikár;Szfinx;Harpija;30;mitologia;2
-196;Ki volt az ókori görög istenek legifjabbika és legokosabbika?;Hermész;Dionüszosz;Apollón;28;mitologia;3
-197;Melyik isten volt a római háborús isten?;Mars;Mercurius;Vulkanusz;25;mitologia;2
-198;Ki volt az ókori görög istenek és emberek közötti közvetítő?;Hermész;Héra;Demétér;20;mitologia;2
-199;Melyik görög mitológiai lény volt fél ember, fél ló?;Szatír;Kentaur;Minótaurosz;22;mitologia;3
-200;Ki volt a római hadisten, akit a görög Arésznek megfelelőnek tekintünk?;Mars;Neptun;Venus;18;mitologia;2
-201;Melyik ókori kultúrában voltak olyan istenek, mint Izisz és Oszirisz?;Egyiptom;Maja;Szumér;25;mitologia;2
-202;Ki volt a görög mitológia szerint a háború és a harc istene?;Arész;Athéné;Hermész;25;mitologia;2
-203;Melyik ókori kultúrában voltak olyan istenek, mint Anu és Enlil?;Szumér;Görög;Egyiptomi;28;mitologia;3
-204;Melyik görög isten az idő, a kor és a vénuság istene?;Kronosz;Hádész;Démétér;22;mitologia;2
-205;Ki volt a római mitológia alvilági istenasszonya?;Persefóné;Juno;Vénusz;20;mitologia;2
-206;Melyik ókori kultúrában találhatóak olyan istenek, mint Inanna és Utu?;Szumér;Egyiptomi;Indiai;30;mitologia;2
-207;Ki volt a görög mitológia napistenasszonya?;Héliosz;Phoibé;Éosz;25;mitologia;2
+187;Melyik nagymacskafaj volt a terjesztője a "Mániászok betegségének" az 1800-as években?;Lion;Tigris;Leopard;28;allatok;2
+188;Melyik ragadozómadár az egyik legnagyobb repülőmadár, amely az alapján kapta nevét, hogy zsákmányát többnyire vízben szerzi meg?;Sas;Sólyom;Vándorsólyom;25;allatok;3
+189;Melyik emlős él a legtovább a Földön?;Galápagoszi teknős;Bowhead bálna;Grönlandi cápa;30;allatok;2
+190;Melyik kétéltű állat a legnagyobb a világon?;Gigantikus salamander;Varangy;Csattogó béka;22;allatok;2
+191;Hány lábon jár a kenguru?;2;4;6;20;allatok;2
+192;Melyik fajta teknős a legnagyobb méretű?;Galápagoszi teknős;Kemény teknős;Csupasz teknős;25;allatok;3
+193;Melyik hüllő volt az egyetlen élő szárnyas hüllő a világon?;Sárkánygyík;Kínai sárkány;Sárkány;18;allatok;2
+194;Hány szemmel rendelkezik a méh?;2;4;6;22;allatok;2
+195;Melyik madárfaj a legnagyobb repülő madár a Földön?;Albatrosz;Kondor;Sólyom;28;allatok;2
+196;Hány hónapig tart egy elefánt vemhessége átlagosan?;22;18;24;25;allatok;2
+197;Melyik a legnagyobb termetű fóka?;Elefántfóka;Szürkefóka;Leopárdfóka;30;allatok;2
+198;Melyik ragadozómadár a legnagyobb testű a sasfélék között?;Holló;Királyréce;Királysas;25;allatok;3
+199;Hány szeme van a házikedvencünk, a macskának?;2;4;6;22;allatok;2
+200;Melyik ragadozómadár a legnagyobb fajta?;Sas;Királysas;Sólyom;28;allatok;2
+201;Melyik kígyófajta a leghosszabb a világon?;Zöld anakonda;Indiai piton;Királypiton;25;allatok;3
+203;Hány lába van a százlábúnak?;50;100;200;18;allatok;2
+204;Melyik madárfaj a legnagyobb teste?;Strucc;Pelikán;Kiwi;22;allatok;2
+205;Hány szeme van a póknak?;4;6;8;20;allatok;2
+206;Melyik emlős a leghosszabb életű a Földön?;Galápagoszi teknős;Bowhead bálna;Hosszúéletű denevér;30;allatok;2
+207;Melyik kétéltű állat a legnagyobb a világon?;Gigantikus salamander;Varangy;Csattogó béka;28;allatok;3
 208;Melyik ókori kultúrában található a toronyból szabaduló isteni nyelvek története?;Babilon;Egyiptom;Görög;28;mitologia;3
 209;Ki volt a római mitológia tenger istene?;Neptun;Mercurius;Jupiter;22;mitologia;2
 210;Melyik görög istennő a házasság és a család istennője?;Hera;Aphrodité;Artemisz;20;mitologia;2
@@ -233,7 +212,7 @@
 213;Ki volt az ókori görög istenek panteonjának mesterkovácsa és találmányainak alkotója?;Héphaisztosz;Daidalosz;Prométheusz;22;mitologia;2
 214;Melyik mitológiai lény képes volt örökké élni és a tükrében látható volt a jövő?;Tündér;Elf;Hárpia;30;mitologia;2
 215;Ki volt a római mitológia alvilági folyója és az alsó világ istene?;Styx;Lethe;Cocytus;28;mitologia;3
-216;Melyik ókori kultúrában találhatók a démonokkal és szellemekkel kapcsolatos történetek?;Kínai;Görög;Indiai;25;mitologia;2
+216;Melyik ókori kultúrában találhatók olyan istenek, mint Inanna és Utu?;Szumér;Egyiptomi;Indiai;30;mitologia;2
 217;Ki volt a görög mitológia szerint az embereknek és isteneknek közvetítője, az üzenetek hírnöke?;Hermész;Artemisz;Apollón;20;mitologia;2
 218;Melyik római isten volt a háborús isten és a városok védője?;Mars;Vulkanusz;Neptun;22;mitologia;2
 219;Ki volt az ókori egyiptomi istenek és istennők kreatív és alkotó hatalmának szimbóluma?;Ptah;Thot;Anubisz;18;mitologia;3
@@ -253,7 +232,7 @@
 233;Ki az "Angie" és a "Paint It Black" című dalok mögött álló legendás rockegyüttes?;The Rolling Stones;The Beatles;Led Zeppelin;28;zene;2
 234;Ki volt a "Purple Haze" és a "Foxy Lady" című dalok mögött álló gitáros-énekes?;Jimi Hendrix;Eric Clapton;Jimmy Page;30;zene;2
 235;Melyik évben adták ki a "Dark Side of the Moon" című Pink Floyd albumot?;1973;1975;1977;22;zene;3
-236;Ki a "Black Sabbath" és a "Paranoid" című dalok mögött álló brit heavy metal zenekar vezetője?;Ozzy Osbourne;Ronnie James Dio;Tony Iommi;28;zene;2
+236;Ki volt a "Black Sabbath" és a "Paranoid" című dalok mögött álló brit heavy metal zenekar vezetője?;Ozzy Osbourne;Ronnie James Dio;Tony Iommi;28;zene;2
 237;Melyik évben jelent meg a "Bohemian Rhapsody" című Queen dal?;1975;1978;1980;20;zene;2
 238;Ki volt a "Hotel California" című dal mögött álló együttes?;Eagles;Fleetwood Mac;The Eagles;25;zene;2
 239;Melyik évben alakult meg a Nirvana zenekar?;1987;1990;1994;18;zene;2

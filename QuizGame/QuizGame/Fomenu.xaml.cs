@@ -29,7 +29,7 @@ namespace QuizGame
         {
             InitializeComponent();
             hibauzenet.Visibility = Visibility.Hidden;
-            jatekos_nev.Text = "a"; //itt csak a tesztek miatt van itt
+            //jatekos_nev.Text = "a"; //itt csak a tesztek miatt van itt
             allatok.Visibility = Visibility.Hidden;
             zene.Visibility = Visibility.Hidden;
             mitosz.Visibility = Visibility.Hidden;
@@ -46,7 +46,7 @@ namespace QuizGame
             }
             else
             {
-                korokszama = 10;
+                korokszama = 5;
                 eltunnek();
             }
         }
@@ -60,7 +60,7 @@ namespace QuizGame
             }
             else
             {
-                korokszama = 15;
+                korokszama = 8;
                 eltunnek();
             }
         }
@@ -73,7 +73,7 @@ namespace QuizGame
             }
             else
             {
-                korokszama = 20;
+                korokszama = 10;
                 eltunnek();
             }
         }
@@ -100,9 +100,9 @@ namespace QuizGame
             tobb_valasz_helyes.Visibility = Visibility.Hidden;
             kerdesek_label.Width = 95;
             kerdesek_label.Content = "Kérdések Száma:";
-            mitosz.Content = "10";
-            zene.Content = "15";
-            allatok.Content = "20";
+            mitosz.Content = "5";
+            zene.Content = "8";
+            allatok.Content = "10";
             kerdesek_helyzete = true;
 
         }
