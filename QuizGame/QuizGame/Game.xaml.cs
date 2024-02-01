@@ -187,7 +187,6 @@ namespace QuizGame
                             kerdes_kozti_ido.Content = "Idő a következő kérdésig: " + visszaszamol.ToString();
                             timer.Start();
                         }
-
                     }
                 }
             }
@@ -314,6 +313,9 @@ namespace QuizGame
                             valasz_harmadikeleme.Margin = new Thickness(0, 0, 20, 0);
                             break;
                         default:
+                            valasz_elsoeleme.Margin = new Thickness(20, 0, 0, 0);
+                            valasz_masodikeleme.Margin = new Thickness(0, 0, 0, 0);
+                            valasz_harmadikeleme.Margin = new Thickness(0, 0, 20, 0);
                             break;
                     }
                     ido_label.Content = "Idő: " + temahoz_szavak[randomszam].ido;

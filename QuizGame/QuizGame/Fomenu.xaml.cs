@@ -89,7 +89,6 @@ namespace QuizGame
             tobb_valasz_helyes.Visibility = Visibility.Visible;
             tobb_valasz_helyes.Margin = new Thickness(-60, 0, 30, 0);
             kerdesek_helyzete = true;
-
         }
         private void korokszama_kerdes()
         {
@@ -104,7 +103,6 @@ namespace QuizGame
             zene.Content = "8";
             allatok.Content = "10";
             kerdesek_helyzete = true;
-
         }
         private void eltunnek()
         {
