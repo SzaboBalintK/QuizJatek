@@ -129,7 +129,7 @@ namespace QuizGame
             }
             else
             {
-                aaa.Content = "Nincs még ilyen felhasználó.";
+                aaa.Content = $"\t\tNincs még ilyen felhasználó. ({Fomenu.nev})\n\t\tAz adataid mentésre kerültek.";
             }
         }
 
