@@ -7,28 +7,37 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Kiertekelo" Background="MediumPurple">
+    <Viewbox Stretch="Uniform">
+        <Grid Height="96" Width="174">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition  />
+            </Grid.ColumnDefinitions>
 
-    <Grid>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
-        <Grid.RowDefinitions>
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-        </Grid.RowDefinitions>
-        <Button x:Name="vissza_gomb" Grid.Column="0" Grid.Row="0" Width="150" Height="75" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Főmenü" FontSize="30" Click="Vissza"/>
-        <Label Grid.Column="1" Grid.Row="0" Content="Összegzés" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="40"/>
-        <Label x:Name="felh_nev" Grid.Column="1" Grid.Row="0" Content="" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="20"/>
-        <Label x:Name="elert_pontszam" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20"/>
-        <Label x:Name="legjobb_pontszam" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
-        <Label x:Name="elert_ponszamok" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="20"/>
-        <Label x:Name="legjobb_ponszamok" Grid.Column="1" Grid.Row="2" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="15"/>
-        <Label x:Name="aaa" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
-    </Grid>
-
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Button x:Name="vissza_gomb" Width="30" Height="15" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Főmenü" FontSize="5" Click="Vissza" Margin="-4.75,0,0,0"/>
+            <Label Grid.Column="1" Content="Összegzés" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="8" Grid.ColumnSpan="2" Margin="22,0,0,0"/>
+            <Label x:Name="felh_nev" Grid.Column="2"  Content="" HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="4" Margin="25,0,0,6" Height="17" Width="52" Grid.ColumnSpan="2"/>
+            <Label x:Name="elert_pontszam" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="5" Margin="0,26,0,0" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2" Width="86"/>
+            <Label x:Name="legjobb_pontszam" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="5" Margin="0,10,0,0" Width="85" Grid.ColumnSpan="2" Grid.Row="1" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.198"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.128"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label x:Name="elert_ponszamok" Grid.Column="1" Grid.Row="1" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="5" Grid.ColumnSpan="2" Margin="0,23,0,0" Grid.RowSpan="2" Width="86"/>
+            <Label x:Name="legjobb_ponszamok" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="5" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2" Width="86"/>
+            <Label x:Name="aaa" Content="" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="5" Margin="2,0,0,0"  Width="86" Height="17" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        </Grid>
+    </Viewbox>
 </Page>

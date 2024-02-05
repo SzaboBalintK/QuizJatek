@@ -1,3 +1,8 @@
 a;7;7;12;27
 yrfxdbxrfryrxdt4dxy4;0;0;15;15
 f;0;0;15;15
+asd;1;1;0;0
+asdas;0;0;0;0
+;0;0;0;0
+fds;2;2;0;0
+fdsdsfdsfdsfdsfdsfds;0;0;18;18
